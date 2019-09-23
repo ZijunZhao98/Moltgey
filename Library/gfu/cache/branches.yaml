@@ -13,13 +13,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2019-09-14T15:01:48.304-05:00
+  lastUpdatedAtString: 2019-09-14T15:05:33.878-05:00
   initializedAtString: 2019-09-14T14:59:38.959-05:00
   localBranches:
   - name: master
     tracking: origin/master
   remoteBranches:
   - name: origin/HEAD
+    tracking: '[None]'
+  - name: origin/master
     tracking: '[None]'
   remotes:
   - name: origin
@@ -44,9 +46,15 @@ MonoBehaviour:
     subKeys:
     - Values:
       - HEAD
+      - master
     subKeyValues:
     - Values:
       - name: HEAD
+        remote:
+          name: origin
+          url: https://github.com/ZijunZhao98/Moltgey.git
+        trackingBranch: 
+      - name: master
         remote:
           name: origin
           url: https://github.com/ZijunZhao98/Moltgey.git
