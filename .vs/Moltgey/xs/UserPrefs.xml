@@ -1,17 +1,13 @@
 ﻿<Properties StartupConfiguration="{700654FC-B3F5-A545-4BA0-FBE0833E5D36}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameCharacter.cs">
     <Files>
-      <File FileName="Assets/Scripts/GameCharacter.cs" Line="27" Column="10" />
+      <File FileName="Assets/Scripts/GameCharacter.cs" Line="29" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Moltgey" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="Scripts" expanded="True">
-                <Node name="GameCharacter.cs" selected="True" />
-              </Node>
-            </Node>
+          <Node name="Moltgey" expanded="True" selected="True">
+            <Node name="Assets" expanded="True" />
           </Node>
         </State>
       </Pad>
