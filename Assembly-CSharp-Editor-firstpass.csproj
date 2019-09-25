@@ -67,43 +67,43 @@
     <None Include="Assets\Plugins\GitHub\Editor\credits.txt" />
     <None Include="Assets\Plugins\GitHub\Editor\eula.txt" />
     <Reference Include="UnityEditor.TestRunner">
-      <HintPath>/Users/Lan/Documents/GitHub/Moltgey/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+      <HintPath>/Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-      <HintPath>/Users/Lan/Documents/GitHub/Moltgey/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+      <HintPath>/Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>/Users/Lan/Documents/GitHub/Moltgey/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>/Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>/Users/Lan/Documents/GitHub/Moltgey/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>/Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/Lan/Documents/GitHub/Moltgey/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>/Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>/Users/Lan/Documents/GitHub/Moltgey/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>/Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>/Users/Lan/Documents/GitHub/Moltgey/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>/Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>/Users/Lan/Documents/GitHub/Moltgey/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>/Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>/Users/Lan/Documents/GitHub/Moltgey/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>/Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>/Users/Lan/Documents/GitHub/Moltgey/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+      <HintPath>/Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>/Users/Lan/Documents/GitHub/Moltgey/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+      <HintPath>/Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/Lan/Documents/GitHub/Moltgey/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>/Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>/Users/Lan/Documents/GitHub/Moltgey/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>/Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Hub/Editor/2019.2.2f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -294,23 +294,23 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
-    <Reference Include="GitHub.Api.45">
-      <HintPath>/Users/Lan/Documents/GitHub/Moltgey/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll</HintPath>
-    </Reference>
     <Reference Include="GitHub.Logging">
-      <HintPath>/Users/Lan/Documents/GitHub/Moltgey/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll</HintPath>
-    </Reference>
-    <Reference Include="GitHub.Unity.45">
-      <HintPath>/Users/Lan/Documents/GitHub/Moltgey/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll</HintPath>
-    </Reference>
-    <Reference Include="GitHub.UnityShim">
-      <HintPath>/Users/Lan/Documents/GitHub/Moltgey/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll</HintPath>
+      <HintPath>/Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll</HintPath>
     </Reference>
     <Reference Include="sfw.net">
-      <HintPath>/Users/Lan/Documents/GitHub/Moltgey/Assets/Plugins/GitHub/Editor/sfw.net.dll</HintPath>
+      <HintPath>/Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor/sfw.net.dll</HintPath>
+    </Reference>
+    <Reference Include="GitHub.Unity.45">
+      <HintPath>/Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll</HintPath>
+    </Reference>
+    <Reference Include="GitHub.UnityShim">
+      <HintPath>/Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll</HintPath>
+    </Reference>
+    <Reference Include="GitHub.Api.45">
+      <HintPath>/Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>/Users/Lan/Documents/GitHub/Moltgey/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+      <HintPath>/Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>/Applications/Unity/Hub/Editor/2019.2.2f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>

@@ -8,8 +8,9 @@
         <State name="__root__">
           <Node name="Moltgey" expanded="True">
             <Node name="Assets" expanded="True">
-              <Node name="Plugins" expanded="True" />
-              <Node name="Scripts" expanded="True" selected="True" />
+              <Node name="Scripts" expanded="True">
+                <Node name="GameCharacter.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
@@ -18,7 +19,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="fa6c08c0-19fc-4e52-b1f8-758318bb8a35" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="58701e07-a898-40dc-89d4-e09d6716c387" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

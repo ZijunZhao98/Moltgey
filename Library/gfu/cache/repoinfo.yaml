@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2019-09-22T22:38:51.236-05:00
-  initializedAtString: 2019-09-22T22:38:51.236-05:00
+  lastUpdatedAtString: 2019-09-24T21:46:00.275-05:00
+  initializedAtString: 2019-09-24T21:46:00.275-05:00
   currentGitRemote:
     name: origin
-    url: git@github.com:ZijunZhao98/Moltgey.git
+    url: https://github.com/ZijunZhao98/Moltgey.git
     login: 
     user: 
     host: 
@@ -25,14 +25,14 @@ MonoBehaviour:
     token: 
   currentGitBranch:
     name: master
-    tracking: 
+    tracking: origin/master
   currentConfigBranch:
     name: master
     remote:
-      name: 
-      url: 
-    trackingBranch: 
+      name: origin
+      url: https://github.com/ZijunZhao98/Moltgey.git
+    trackingBranch: master
   currentConfigRemote:
     name: origin
-    url: git@github.com:ZijunZhao98/Moltgey.git
+    url: https://github.com/ZijunZhao98/Moltgey.git
   currentHead: 

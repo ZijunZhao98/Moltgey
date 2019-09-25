@@ -13,810 +13,1482 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2019-09-22T23:16:14.050-05:00
-  initializedAtString: 2019-09-22T22:38:53.750-05:00
+  lastUpdatedAtString: 2019-09-24T21:55:58.335-05:00
+  initializedAtString: 2019-09-24T21:46:00.691-05:00
   entries:
-  - path: Assets\Prefab.meta
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Assets\Prefab.meta
-    projectPath: Assets\Prefab.meta
+  - path: .vs/Moltgey/xs/project-cache/Assembly-CSharp-Debug.json
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/.vs/Moltgey/xs/project-cache/Assembly-CSharp-Debug.json
+    projectPath: .vs/Moltgey/xs/project-cache/Assembly-CSharp-Debug.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: .vs/Moltgey/xs/project-cache/Assembly-CSharp-Editor-firstpass-Debug.json
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/.vs/Moltgey/xs/project-cache/Assembly-CSharp-Editor-firstpass-Debug.json
+    projectPath: .vs/Moltgey/xs/project-cache/Assembly-CSharp-Editor-firstpass-Debug.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: .vs/Moltgey/xs/sqlite3/storage.ide-shm
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/.vs/Moltgey/xs/sqlite3/storage.ide-shm
+    projectPath: .vs/Moltgey/xs/sqlite3/storage.ide-shm
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Prefab\Floor.prefab
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Assets\Prefab\Floor.prefab
-    projectPath: Assets\Prefab\Floor.prefab
+  - path: .vs/Moltgey/xs/sqlite3/storage.ide-wal
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/.vs/Moltgey/xs/sqlite3/storage.ide-wal
+    projectPath: .vs/Moltgey/xs/sqlite3/storage.ide-wal
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Prefab\Floor.prefab.meta
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Assets\Prefab\Floor.prefab.meta
-    projectPath: Assets\Prefab\Floor.prefab.meta
+  - path: .vs/Moltgey/xs/UserPrefs.xml
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/.vs/Moltgey/xs/UserPrefs.xml
+    projectPath: .vs/Moltgey/xs/UserPrefs.xml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assembly-CSharp.csproj
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assembly-CSharp.csproj
+    projectPath: Assembly-CSharp.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assembly-CSharp-Editor-firstpass.csproj
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assembly-CSharp-Editor-firstpass.csproj
+    projectPath: Assembly-CSharp-Editor-firstpass.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets/Plugins.meta
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins.meta
+    projectPath: Assets/Plugins.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Plugins/GitHub.meta
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub.meta
+    projectPath: Assets/Plugins/GitHub.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Plugins/GitHub/Editor.meta
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor.meta
+    projectPath: Assets/Plugins/GitHub/Editor.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll
+    projectPath: Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll.meta
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll.meta
+    projectPath: Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Plugins/GitHub/Editor/big-logo@2x.png
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor/big-logo@2x.png
+    projectPath: Assets/Plugins/GitHub/Editor/big-logo@2x.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Plugins/GitHub/Editor/big-logo@2x.png.meta
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor/big-logo@2x.png.meta
+    projectPath: Assets/Plugins/GitHub/Editor/big-logo@2x.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Plugins/GitHub/Editor/credits.txt
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor/credits.txt
+    projectPath: Assets/Plugins/GitHub/Editor/credits.txt
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Plugins/GitHub/Editor/credits.txt.meta
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor/credits.txt.meta
+    projectPath: Assets/Plugins/GitHub/Editor/credits.txt.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Plugins/GitHub/Editor/eula.txt
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor/eula.txt
+    projectPath: Assets/Plugins/GitHub/Editor/eula.txt
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Plugins/GitHub/Editor/eula.txt.meta
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor/eula.txt.meta
+    projectPath: Assets/Plugins/GitHub/Editor/eula.txt.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Plugins/GitHub/Editor/ExtensionLoader.cs
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor/ExtensionLoader.cs
+    projectPath: Assets/Plugins/GitHub/Editor/ExtensionLoader.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Plugins/GitHub/Editor/ExtensionLoader.cs.meta
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor/ExtensionLoader.cs.meta
+    projectPath: Assets/Plugins/GitHub/Editor/ExtensionLoader.cs.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll
+    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.meta
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.meta
+    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.mdb
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.mdb
+    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.mdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.mdb.meta
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.mdb.meta
+    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.mdb.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Plugins/GitHub/Editor/GitHub.Api.45.pdb
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor/GitHub.Api.45.pdb
+    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.45.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Plugins/GitHub/Editor/GitHub.Api.45.pdb.meta
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor/GitHub.Api.45.pdb.meta
+    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.45.pdb.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Plugins/GitHub/Editor/GitHub.Api.dll
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor/GitHub.Api.dll
+    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Plugins/GitHub/Editor/GitHub.Api.dll.meta
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor/GitHub.Api.dll.meta
+    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.dll.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Plugins/GitHub/Editor/GitHub.Api.dll.mdb
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor/GitHub.Api.dll.mdb
+    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.dll.mdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Plugins/GitHub/Editor/GitHub.Api.dll.mdb.meta
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor/GitHub.Api.dll.mdb.meta
+    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.dll.mdb.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Plugins/GitHub/Editor/GitHub.Api.pdb
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor/GitHub.Api.pdb
+    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Plugins/GitHub/Editor/GitHub.Api.pdb.meta
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor/GitHub.Api.pdb.meta
+    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.pdb.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll
+    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.meta
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.meta
+    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.mdb
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.mdb
+    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.mdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.mdb.meta
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.mdb.meta
+    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.mdb.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Plugins/GitHub/Editor/GitHub.Logging.pdb
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor/GitHub.Logging.pdb
+    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Logging.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Plugins/GitHub/Editor/GitHub.Logging.pdb.meta
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor/GitHub.Logging.pdb.meta
+    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Logging.pdb.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll
+    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.meta
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.meta
+    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.mdb
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.mdb
+    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.mdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.mdb.meta
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.mdb.meta
+    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.mdb.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.pdb
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.pdb
+    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.pdb.meta
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.pdb.meta
+    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.pdb.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll
+    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.meta
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.meta
+    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.mdb
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.mdb
+    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.mdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.mdb.meta
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.mdb.meta
+    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.mdb.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.pdb
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor/GitHub.Unity.pdb
+    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.pdb.meta
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor/GitHub.Unity.pdb.meta
+    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.pdb.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll
+    projectPath: Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll.meta
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll.meta
+    projectPath: Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll.mdb
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll.mdb
+    projectPath: Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll.mdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll.mdb.meta
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll.mdb.meta
+    projectPath: Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll.mdb.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Plugins/GitHub/Editor/GitHub.UnityShim.pdb
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.pdb
+    projectPath: Assets/Plugins/GitHub/Editor/GitHub.UnityShim.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Plugins/GitHub/Editor/GitHub.UnityShim.pdb.meta
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.pdb.meta
+    projectPath: Assets/Plugins/GitHub/Editor/GitHub.UnityShim.pdb.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Plugins/GitHub/Editor/libsfw.bundle
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor/libsfw.bundle
+    projectPath: Assets/Plugins/GitHub/Editor/libsfw.bundle
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Plugins/GitHub/Editor/libsfw.bundle.meta
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor/libsfw.bundle.meta
+    projectPath: Assets/Plugins/GitHub/Editor/libsfw.bundle.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Plugins/GitHub/Editor/libsfw.so
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor/libsfw.so
+    projectPath: Assets/Plugins/GitHub/Editor/libsfw.so
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Plugins/GitHub/Editor/libsfw.so.meta
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor/libsfw.so.meta
+    projectPath: Assets/Plugins/GitHub/Editor/libsfw.so.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Plugins/GitHub/Editor/Mono.Posix.dll
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor/Mono.Posix.dll
+    projectPath: Assets/Plugins/GitHub/Editor/Mono.Posix.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Plugins/GitHub/Editor/Mono.Posix.dll.meta
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor/Mono.Posix.dll.meta
+    projectPath: Assets/Plugins/GitHub/Editor/Mono.Posix.dll.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Plugins/GitHub/Editor/QuickGuide.pdf
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor/QuickGuide.pdf
+    projectPath: Assets/Plugins/GitHub/Editor/QuickGuide.pdf
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Plugins/GitHub/Editor/QuickGuide.pdf.meta
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor/QuickGuide.pdf.meta
+    projectPath: Assets/Plugins/GitHub/Editor/QuickGuide.pdf.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll
+    projectPath: Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll.meta
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll.meta
+    projectPath: Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Plugins/GitHub/Editor/sfw.net.dll
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor/sfw.net.dll
+    projectPath: Assets/Plugins/GitHub/Editor/sfw.net.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Plugins/GitHub/Editor/sfw.net.dll.meta
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor/sfw.net.dll.meta
+    projectPath: Assets/Plugins/GitHub/Editor/sfw.net.dll.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Plugins/GitHub/Editor/System.Threading.dll
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor/System.Threading.dll
+    projectPath: Assets/Plugins/GitHub/Editor/System.Threading.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Plugins/GitHub/Editor/System.Threading.dll.meta
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor/System.Threading.dll.meta
+    projectPath: Assets/Plugins/GitHub/Editor/System.Threading.dll.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs
+    projectPath: Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs.meta
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs.meta
+    projectPath: Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Plugins/GitHub/Editor/x64.meta
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor/x64.meta
+    projectPath: Assets/Plugins/GitHub/Editor/x64.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll
+    projectPath: Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll.meta
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll.meta
+    projectPath: Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll
+    projectPath: Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll.meta
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll.meta
+    projectPath: Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Plugins/GitHub/Editor/x86.meta
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor/x86.meta
+    projectPath: Assets/Plugins/GitHub/Editor/x86.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll
+    projectPath: Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll.meta
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll.meta
+    projectPath: Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll
+    projectPath: Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll.meta
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll.meta
+    projectPath: Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets/Scenes/SampleScene.unity
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Assets/Scenes/SampleScene.unity
+    projectPath: Assets/Scenes/SampleScene.unity
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/APIUpdater/project-dependencies.graph
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/APIUpdater/project-dependencies.graph
+    projectPath: Library/APIUpdater/project-dependencies.graph
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/assetDatabase3
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/assetDatabase3
+    projectPath: Library/assetDatabase3
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/AssetImportState
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/AssetImportState
+    projectPath: Library/AssetImportState
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/CrashedAssetImports.txt
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/CrashedAssetImports.txt
+    projectPath: Library/CrashedAssetImports.txt
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Prefab\Wall01.prefab
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Assets\Prefab\Wall01.prefab
-    projectPath: Assets\Prefab\Wall01.prefab
+  - path: Library/EditorInstance.json
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/EditorInstance.json
+    projectPath: Library/EditorInstance.json
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Prefab\Wall01.prefab.meta
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Assets\Prefab\Wall01.prefab.meta
-    projectPath: Assets\Prefab\Wall01.prefab.meta
+  - path: Library/EditorUserBuildSettings.asset
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/EditorUserBuildSettings.asset
+    projectPath: Library/EditorUserBuildSettings.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/gfu/cache/gitlocks.yaml
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/gfu/cache/gitlocks.yaml
+    projectPath: Library/gfu/cache/gitlocks.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/gfu/cache/gitstatusentries.yaml
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/gfu/cache/gitstatusentries.yaml
+    projectPath: Library/gfu/cache/gitstatusentries.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/gfu/cache/gittrackingstatus.yaml
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/gfu/cache/gittrackingstatus.yaml
+    projectPath: Library/gfu/cache/gittrackingstatus.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/gfu/cache/repoinfo.yaml
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/gfu/cache/repoinfo.yaml
+    projectPath: Library/gfu/cache/repoinfo.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/metadata/01/0188ec438976e5849b40a2c1ce5f20f9
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/01/0188ec438976e5849b40a2c1ce5f20f9
+    projectPath: Library/metadata/01/0188ec438976e5849b40a2c1ce5f20f9
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/01/0188ec438976e5849b40a2c1ce5f20f9.info
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/01/0188ec438976e5849b40a2c1ce5f20f9.info
+    projectPath: Library/metadata/01/0188ec438976e5849b40a2c1ce5f20f9.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/11/1186e0491049e40ba8e7e19e418d9e8e
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/11/1186e0491049e40ba8e7e19e418d9e8e
+    projectPath: Library/metadata/11/1186e0491049e40ba8e7e19e418d9e8e
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/11/1186e0491049e40ba8e7e19e418d9e8e.info
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/11/1186e0491049e40ba8e7e19e418d9e8e.info
+    projectPath: Library/metadata/11/1186e0491049e40ba8e7e19e418d9e8e.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/13/136dc24f151211d438acee17aff4e934
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/13/136dc24f151211d438acee17aff4e934
+    projectPath: Library/metadata/13/136dc24f151211d438acee17aff4e934
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/13/136dc24f151211d438acee17aff4e934.info
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/13/136dc24f151211d438acee17aff4e934.info
+    projectPath: Library/metadata/13/136dc24f151211d438acee17aff4e934.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/15/151a1d946b98deb4b98445400983ba92
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/15/151a1d946b98deb4b98445400983ba92
+    projectPath: Library/metadata/15/151a1d946b98deb4b98445400983ba92
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/15/151a1d946b98deb4b98445400983ba92.info
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/15/151a1d946b98deb4b98445400983ba92.info
+    projectPath: Library/metadata/15/151a1d946b98deb4b98445400983ba92.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/15/15ca2bebf173f2d4484686a03a45b56d
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/15/15ca2bebf173f2d4484686a03a45b56d
+    projectPath: Library/metadata/15/15ca2bebf173f2d4484686a03a45b56d
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/15/15ca2bebf173f2d4484686a03a45b56d.info
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/15/15ca2bebf173f2d4484686a03a45b56d.info
+    projectPath: Library/metadata/15/15ca2bebf173f2d4484686a03a45b56d.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/18/181f65fb096cedd4493bc9971257d8b1
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/18/181f65fb096cedd4493bc9971257d8b1
+    projectPath: Library/metadata/18/181f65fb096cedd4493bc9971257d8b1
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/18/181f65fb096cedd4493bc9971257d8b1.info
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/18/181f65fb096cedd4493bc9971257d8b1.info
+    projectPath: Library/metadata/18/181f65fb096cedd4493bc9971257d8b1.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/18/18e096a98c2704c40a818dd1214cd179
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/18/18e096a98c2704c40a818dd1214cd179
+    projectPath: Library/metadata/18/18e096a98c2704c40a818dd1214cd179
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/18/18e096a98c2704c40a818dd1214cd179.info
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/18/18e096a98c2704c40a818dd1214cd179.info
+    projectPath: Library/metadata/18/18e096a98c2704c40a818dd1214cd179.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/21/21206c65839f84d0e9ae14bc1fdc68db
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/21/21206c65839f84d0e9ae14bc1fdc68db
+    projectPath: Library/metadata/21/21206c65839f84d0e9ae14bc1fdc68db
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/21/21206c65839f84d0e9ae14bc1fdc68db.info
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/21/21206c65839f84d0e9ae14bc1fdc68db.info
+    projectPath: Library/metadata/21/21206c65839f84d0e9ae14bc1fdc68db.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/23/23c8bee69b591054094d32918f98facd
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/23/23c8bee69b591054094d32918f98facd
+    projectPath: Library/metadata/23/23c8bee69b591054094d32918f98facd
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/23/23c8bee69b591054094d32918f98facd.info
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/23/23c8bee69b591054094d32918f98facd.info
+    projectPath: Library/metadata/23/23c8bee69b591054094d32918f98facd.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/25/2590b98e5cafc4e32b61170d7b917ee6
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/25/2590b98e5cafc4e32b61170d7b917ee6
+    projectPath: Library/metadata/25/2590b98e5cafc4e32b61170d7b917ee6
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/25/2590b98e5cafc4e32b61170d7b917ee6.info
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/25/2590b98e5cafc4e32b61170d7b917ee6.info
+    projectPath: Library/metadata/25/2590b98e5cafc4e32b61170d7b917ee6.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/33/33d3e83914445de4d92ab0d77d7fa3f9
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/33/33d3e83914445de4d92ab0d77d7fa3f9
+    projectPath: Library/metadata/33/33d3e83914445de4d92ab0d77d7fa3f9
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/33/33d3e83914445de4d92ab0d77d7fa3f9.info
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/33/33d3e83914445de4d92ab0d77d7fa3f9.info
+    projectPath: Library/metadata/33/33d3e83914445de4d92ab0d77d7fa3f9.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/48/480071253ef427a4cbc55ef1fedca3e5
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/48/480071253ef427a4cbc55ef1fedca3e5
+    projectPath: Library/metadata/48/480071253ef427a4cbc55ef1fedca3e5
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/48/480071253ef427a4cbc55ef1fedca3e5.info
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/48/480071253ef427a4cbc55ef1fedca3e5.info
+    projectPath: Library/metadata/48/480071253ef427a4cbc55ef1fedca3e5.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/48/48c22d5d7479fcb49ab3be0cdd2ccec0
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/48/48c22d5d7479fcb49ab3be0cdd2ccec0
+    projectPath: Library/metadata/48/48c22d5d7479fcb49ab3be0cdd2ccec0
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/48/48c22d5d7479fcb49ab3be0cdd2ccec0.info
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/48/48c22d5d7479fcb49ab3be0cdd2ccec0.info
+    projectPath: Library/metadata/48/48c22d5d7479fcb49ab3be0cdd2ccec0.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/4b/4ba2329b63d54f0187bcaa12486b1b0f
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/4b/4ba2329b63d54f0187bcaa12486b1b0f
+    projectPath: Library/metadata/4b/4ba2329b63d54f0187bcaa12486b1b0f
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/metadata/4b/4ba86e5b8d6657b4184ff6b976ac3d3e
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/4b/4ba86e5b8d6657b4184ff6b976ac3d3e
+    projectPath: Library/metadata/4b/4ba86e5b8d6657b4184ff6b976ac3d3e
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/4b/4ba86e5b8d6657b4184ff6b976ac3d3e.info
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/4b/4ba86e5b8d6657b4184ff6b976ac3d3e.info
+    projectPath: Library/metadata/4b/4ba86e5b8d6657b4184ff6b976ac3d3e.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/55/555cd6f54c03341b1970d950df1a5ee5
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/55/555cd6f54c03341b1970d950df1a5ee5
+    projectPath: Library/metadata/55/555cd6f54c03341b1970d950df1a5ee5
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/55/555cd6f54c03341b1970d950df1a5ee5.info
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/55/555cd6f54c03341b1970d950df1a5ee5.info
+    projectPath: Library/metadata/55/555cd6f54c03341b1970d950df1a5ee5.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/5a/5a2082a44711bad4b90f693579c2b336
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/5a/5a2082a44711bad4b90f693579c2b336
+    projectPath: Library/metadata/5a/5a2082a44711bad4b90f693579c2b336
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/5a/5a2082a44711bad4b90f693579c2b336.info
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/5a/5a2082a44711bad4b90f693579c2b336.info
+    projectPath: Library/metadata/5a/5a2082a44711bad4b90f693579c2b336.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/63/636d33ae594884e7d80b569f429d245d
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/63/636d33ae594884e7d80b569f429d245d
+    projectPath: Library/metadata/63/636d33ae594884e7d80b569f429d245d
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/63/636d33ae594884e7d80b569f429d245d.info
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/63/636d33ae594884e7d80b569f429d245d.info
+    projectPath: Library/metadata/63/636d33ae594884e7d80b569f429d245d.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/68/68c7e4565cde54155bb78d8e935f1dd4
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/68/68c7e4565cde54155bb78d8e935f1dd4
+    projectPath: Library/metadata/68/68c7e4565cde54155bb78d8e935f1dd4
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/68/68c7e4565cde54155bb78d8e935f1dd4.info
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/68/68c7e4565cde54155bb78d8e935f1dd4.info
+    projectPath: Library/metadata/68/68c7e4565cde54155bb78d8e935f1dd4.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/68/68c7e4565cde54155bb78d8e935f1ddb
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/68/68c7e4565cde54155bb78d8e935f1ddb
+    projectPath: Library/metadata/68/68c7e4565cde54155bb78d8e935f1ddb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/68/68c7e4565cde54155bb78d8e935f1ddb.info
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/68/68c7e4565cde54155bb78d8e935f1ddb.info
+    projectPath: Library/metadata/68/68c7e4565cde54155bb78d8e935f1ddb.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/6d/6d8cd2a9c493e7648ac755cdbe03cf83.info
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/6d/6d8cd2a9c493e7648ac755cdbe03cf83.info
+    projectPath: Library/metadata/6d/6d8cd2a9c493e7648ac755cdbe03cf83.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/metadata/6e/6e4df876417ac4c4f8862a5234b25615
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/6e/6e4df876417ac4c4f8862a5234b25615
+    projectPath: Library/metadata/6e/6e4df876417ac4c4f8862a5234b25615
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/6e/6e4df876417ac4c4f8862a5234b25615.info
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/6e/6e4df876417ac4c4f8862a5234b25615.info
+    projectPath: Library/metadata/6e/6e4df876417ac4c4f8862a5234b25615.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/72/720712be6e31c444f88f57bb85bf5fa5
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/72/720712be6e31c444f88f57bb85bf5fa5
+    projectPath: Library/metadata/72/720712be6e31c444f88f57bb85bf5fa5
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/72/720712be6e31c444f88f57bb85bf5fa5.info
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/72/720712be6e31c444f88f57bb85bf5fa5.info
+    projectPath: Library/metadata/72/720712be6e31c444f88f57bb85bf5fa5.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/79/790749ba7e4b18141953e39cb13f1b79
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/79/790749ba7e4b18141953e39cb13f1b79
+    projectPath: Library/metadata/79/790749ba7e4b18141953e39cb13f1b79
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/79/790749ba7e4b18141953e39cb13f1b79.info
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/79/790749ba7e4b18141953e39cb13f1b79.info
+    projectPath: Library/metadata/79/790749ba7e4b18141953e39cb13f1b79.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/86/863e1b9976c4e46d29bf83928b3a8ab2
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/86/863e1b9976c4e46d29bf83928b3a8ab2
+    projectPath: Library/metadata/86/863e1b9976c4e46d29bf83928b3a8ab2
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/86/863e1b9976c4e46d29bf83928b3a8ab2.info
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/86/863e1b9976c4e46d29bf83928b3a8ab2.info
+    projectPath: Library/metadata/86/863e1b9976c4e46d29bf83928b3a8ab2.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/86/868fbb4c41814baebc00f96e24ede2f8
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/86/868fbb4c41814baebc00f96e24ede2f8
+    projectPath: Library/metadata/86/868fbb4c41814baebc00f96e24ede2f8
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/86/868fbb4c41814baebc00f96e24ede2f8.info
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/86/868fbb4c41814baebc00f96e24ede2f8.info
+    projectPath: Library/metadata/86/868fbb4c41814baebc00f96e24ede2f8.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/87/877ef3585573ce44eab899298be23158
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/87/877ef3585573ce44eab899298be23158
+    projectPath: Library/metadata/87/877ef3585573ce44eab899298be23158
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/87/877ef3585573ce44eab899298be23158.info
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/87/877ef3585573ce44eab899298be23158.info
+    projectPath: Library/metadata/87/877ef3585573ce44eab899298be23158.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/99/99b48d4d4f6a66340ab06bd487d70a45
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/99/99b48d4d4f6a66340ab06bd487d70a45
+    projectPath: Library/metadata/99/99b48d4d4f6a66340ab06bd487d70a45
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/99/99b48d4d4f6a66340ab06bd487d70a45.info
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/99/99b48d4d4f6a66340ab06bd487d70a45.info
+    projectPath: Library/metadata/99/99b48d4d4f6a66340ab06bd487d70a45.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/a0/a0ded7adcc817ce489fec07977f16d13
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/a0/a0ded7adcc817ce489fec07977f16d13
+    projectPath: Library/metadata/a0/a0ded7adcc817ce489fec07977f16d13
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/a0/a0ded7adcc817ce489fec07977f16d13.info
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/a0/a0ded7adcc817ce489fec07977f16d13.info
+    projectPath: Library/metadata/a0/a0ded7adcc817ce489fec07977f16d13.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/a8/a83159a46d87d2a4f8cec651049b9231
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/a8/a83159a46d87d2a4f8cec651049b9231
+    projectPath: Library/metadata/a8/a83159a46d87d2a4f8cec651049b9231
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/a8/a83159a46d87d2a4f8cec651049b9231.info
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/a8/a83159a46d87d2a4f8cec651049b9231.info
+    projectPath: Library/metadata/a8/a83159a46d87d2a4f8cec651049b9231.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/c0/c0809c8f0ddd4b546939f6fe7a94ac6c
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/c0/c0809c8f0ddd4b546939f6fe7a94ac6c
+    projectPath: Library/metadata/c0/c0809c8f0ddd4b546939f6fe7a94ac6c
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/c0/c0809c8f0ddd4b546939f6fe7a94ac6c.info
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/c0/c0809c8f0ddd4b546939f6fe7a94ac6c.info
+    projectPath: Library/metadata/c0/c0809c8f0ddd4b546939f6fe7a94ac6c.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/c5/c5c83d14802e712408f23409f3c59e26
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/c5/c5c83d14802e712408f23409f3c59e26
+    projectPath: Library/metadata/c5/c5c83d14802e712408f23409f3c59e26
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/c5/c5c83d14802e712408f23409f3c59e26.info
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/c5/c5c83d14802e712408f23409f3c59e26.info
+    projectPath: Library/metadata/c5/c5c83d14802e712408f23409f3c59e26.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/c7/c743ae24ee231884887054d20ccdd0ab
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/c7/c743ae24ee231884887054d20ccdd0ab
+    projectPath: Library/metadata/c7/c743ae24ee231884887054d20ccdd0ab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/c7/c743ae24ee231884887054d20ccdd0ab.info
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/c7/c743ae24ee231884887054d20ccdd0ab.info
+    projectPath: Library/metadata/c7/c743ae24ee231884887054d20ccdd0ab.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/c7/c743ae24ee231884887054d20ccdd0ae
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/c7/c743ae24ee231884887054d20ccdd0ae
+    projectPath: Library/metadata/c7/c743ae24ee231884887054d20ccdd0ae
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/c7/c743ae24ee231884887054d20ccdd0ae.info
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/c7/c743ae24ee231884887054d20ccdd0ae.info
+    projectPath: Library/metadata/c7/c743ae24ee231884887054d20ccdd0ae.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/ca/cad92998c5182496e8b989b406d9f156
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/ca/cad92998c5182496e8b989b406d9f156
+    projectPath: Library/metadata/ca/cad92998c5182496e8b989b406d9f156
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/ca/cad92998c5182496e8b989b406d9f156.info
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/ca/cad92998c5182496e8b989b406d9f156.info
+    projectPath: Library/metadata/ca/cad92998c5182496e8b989b406d9f156.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/d5/d516f2a1bec6a9645a084ef8c9237132
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/d5/d516f2a1bec6a9645a084ef8c9237132
+    projectPath: Library/metadata/d5/d516f2a1bec6a9645a084ef8c9237132
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/d5/d516f2a1bec6a9645a084ef8c9237132.info
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/d5/d516f2a1bec6a9645a084ef8c9237132.info
+    projectPath: Library/metadata/d5/d516f2a1bec6a9645a084ef8c9237132.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/d6/d601ecb6855bb432bae2aa49d8fd82e8
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/d6/d601ecb6855bb432bae2aa49d8fd82e8
+    projectPath: Library/metadata/d6/d601ecb6855bb432bae2aa49d8fd82e8
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/d6/d601ecb6855bb432bae2aa49d8fd82e8.info
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/d6/d601ecb6855bb432bae2aa49d8fd82e8.info
+    projectPath: Library/metadata/d6/d601ecb6855bb432bae2aa49d8fd82e8.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/da/dae2ecee8a704dd59797e26554ff8606
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/da/dae2ecee8a704dd59797e26554ff8606
+    projectPath: Library/metadata/da/dae2ecee8a704dd59797e26554ff8606
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/da/dae2ecee8a704dd59797e26554ff8606.info
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/da/dae2ecee8a704dd59797e26554ff8606.info
+    projectPath: Library/metadata/da/dae2ecee8a704dd59797e26554ff8606.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/dd/ddb8611e748af425a82a497ac5a98c0c
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/dd/ddb8611e748af425a82a497ac5a98c0c
+    projectPath: Library/metadata/dd/ddb8611e748af425a82a497ac5a98c0c
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/dd/ddb8611e748af425a82a497ac5a98c0c.info
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/dd/ddb8611e748af425a82a497ac5a98c0c.info
+    projectPath: Library/metadata/dd/ddb8611e748af425a82a497ac5a98c0c.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/f8/f81094832d834c64d93b198cb16b6a3e
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/f8/f81094832d834c64d93b198cb16b6a3e
+    projectPath: Library/metadata/f8/f81094832d834c64d93b198cb16b6a3e
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/f8/f81094832d834c64d93b198cb16b6a3e.info
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/f8/f81094832d834c64d93b198cb16b6a3e.info
+    projectPath: Library/metadata/f8/f81094832d834c64d93b198cb16b6a3e.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/f9/f9fc9b08ecd899944adf9860b4abd6b6
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/f9/f9fc9b08ecd899944adf9860b4abd6b6
+    projectPath: Library/metadata/f9/f9fc9b08ecd899944adf9860b4abd6b6
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/f9/f9fc9b08ecd899944adf9860b4abd6b6.info
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/f9/f9fc9b08ecd899944adf9860b4abd6b6.info
+    projectPath: Library/metadata/f9/f9fc9b08ecd899944adf9860b4abd6b6.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/fe/fe5abeadcbe591e4fa9107fbc02f3998
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/fe/fe5abeadcbe591e4fa9107fbc02f3998
+    projectPath: Library/metadata/fe/fe5abeadcbe591e4fa9107fbc02f3998
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/metadata/fe/fe5abeadcbe591e4fa9107fbc02f3998.info
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/metadata/fe/fe5abeadcbe591e4fa9107fbc02f3998.info
+    projectPath: Library/metadata/fe/fe5abeadcbe591e4fa9107fbc02f3998.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/ScriptAssemblies/Assembly-CSharp.dll
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/ScriptAssemblies/Assembly-CSharp.dll
+    projectPath: Library/ScriptAssemblies/Assembly-CSharp.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/ScriptAssemblies/Assembly-CSharp.pdb
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/ScriptAssemblies/Assembly-CSharp.pdb
+    projectPath: Library/ScriptAssemblies/Assembly-CSharp.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll
+    projectPath: Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.pdb
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.pdb
+    projectPath: Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/ScriptAssemblies/BuiltinAssemblies.stamp
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/ScriptAssemblies/BuiltinAssemblies.stamp
+    projectPath: Library/ScriptAssemblies/BuiltinAssemblies.stamp
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll
+    projectPath: Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/ScriptAssemblies/Unity.2D.Sprite.Editor.pdb
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.pdb
+    projectPath: Library/ScriptAssemblies/Unity.2D.Sprite.Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll
+    projectPath: Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.pdb
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.pdb
+    projectPath: Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+    projectPath: Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/ScriptAssemblies/Unity.CollabProxy.Editor.pdb
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/ScriptAssemblies/Unity.CollabProxy.Editor.pdb
+    projectPath: Library/ScriptAssemblies/Unity.CollabProxy.Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/ScriptAssemblies/Unity.Rider.Editor.dll
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+    projectPath: Library/ScriptAssemblies/Unity.Rider.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/ScriptAssemblies/Unity.Rider.Editor.pdb
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/ScriptAssemblies/Unity.Rider.Editor.pdb
+    projectPath: Library/ScriptAssemblies/Unity.Rider.Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/ScriptAssemblies/Unity.TextMeshPro.dll
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+    projectPath: Library/ScriptAssemblies/Unity.TextMeshPro.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+    projectPath: Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/ScriptAssemblies/Unity.TextMeshPro.Editor.pdb
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.pdb
+    projectPath: Library/ScriptAssemblies/Unity.TextMeshPro.Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/ScriptAssemblies/Unity.TextMeshPro.pdb
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/ScriptAssemblies/Unity.TextMeshPro.pdb
+    projectPath: Library/ScriptAssemblies/Unity.TextMeshPro.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/ScriptAssemblies/Unity.Timeline.dll
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/ScriptAssemblies/Unity.Timeline.dll
+    projectPath: Library/ScriptAssemblies/Unity.Timeline.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+    projectPath: Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/ScriptAssemblies/Unity.Timeline.Editor.pdb
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/ScriptAssemblies/Unity.Timeline.Editor.pdb
+    projectPath: Library/ScriptAssemblies/Unity.Timeline.Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/ScriptAssemblies/Unity.Timeline.pdb
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/ScriptAssemblies/Unity.Timeline.pdb
+    projectPath: Library/ScriptAssemblies/Unity.Timeline.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+    projectPath: Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/ScriptAssemblies/Unity.VSCode.Editor.pdb
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/ScriptAssemblies/Unity.VSCode.Editor.pdb
+    projectPath: Library/ScriptAssemblies/Unity.VSCode.Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+    projectPath: Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/ScriptAssemblies/UnityEditor.TestRunner.pdb
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/ScriptAssemblies/UnityEditor.TestRunner.pdb
+    projectPath: Library/ScriptAssemblies/UnityEditor.TestRunner.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/ScriptAssemblies/UnityEditor.UI.dll
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/ScriptAssemblies/UnityEditor.UI.dll
+    projectPath: Library/ScriptAssemblies/UnityEditor.UI.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/ScriptAssemblies/UnityEditor.UI.pdb
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/ScriptAssemblies/UnityEditor.UI.pdb
+    projectPath: Library/ScriptAssemblies/UnityEditor.UI.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+    projectPath: Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/ScriptAssemblies/UnityEngine.TestRunner.pdb
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/ScriptAssemblies/UnityEngine.TestRunner.pdb
+    projectPath: Library/ScriptAssemblies/UnityEngine.TestRunner.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/ScriptAssemblies/UnityEngine.UI.dll
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/ScriptAssemblies/UnityEngine.UI.dll
+    projectPath: Library/ScriptAssemblies/UnityEngine.UI.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/ScriptAssemblies/UnityEngine.UI.pdb
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/ScriptAssemblies/UnityEngine.UI.pdb
+    projectPath: Library/ScriptAssemblies/UnityEngine.UI.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/StateCache/Hierarchy/d08bb8-mainStage.json
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Library/StateCache/Hierarchy/d08bb8-mainStage.json
+    projectPath: Library/StateCache/Hierarchy/d08bb8-mainStage.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache
+    projectPath: obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: obj/Debug/Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/obj/Debug/Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+    projectPath: obj/Debug/Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/__Backupscenes/0.backup
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Temp/__Backupscenes/0.backup
+    projectPath: Temp/__Backupscenes/0.backup
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Prefab\wall02.prefab
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Assets\Prefab\wall02.prefab
-    projectPath: Assets\Prefab\wall02.prefab
+  - path: Temp/UnityEngine.UI.dll
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Temp/UnityEngine.UI.dll
+    projectPath: Temp/UnityEngine.UI.dll
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Prefab\wall02.prefab.meta
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Assets\Prefab\wall02.prefab.meta
-    projectPath: Assets\Prefab\wall02.prefab.meta
+  - path: Temp/UnityEngine.UI.pdb
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Temp/UnityEngine.UI.pdb
+    projectPath: Temp/UnityEngine.UI.pdb
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Resources\Textures\floor_1st.png
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Assets\Resources\Textures\floor_1st.png
-    projectPath: Assets\Resources\Textures\floor_1st.png
+  - path: Temp/UnityLockfile
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Temp/UnityLockfile
+    projectPath: Temp/UnityLockfile
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Resources\Textures\floor_1st.png.meta
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Assets\Resources\Textures\floor_1st.png.meta
-    projectPath: Assets\Resources\Textures\floor_1st.png.meta
+  - path: Temp/UnityTempFile-007885b6ad72847abbb926ec2ea4b57f
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Temp/UnityTempFile-007885b6ad72847abbb926ec2ea4b57f
+    projectPath: Temp/UnityTempFile-007885b6ad72847abbb926ec2ea4b57f
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Resources\Textures\left_walking.png.meta
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Assets\Resources\Textures\left_walking.png.meta
-    projectPath: Assets\Resources\Textures\left_walking.png.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Resources\Textures\wall01.png
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Assets\Resources\Textures\wall01.png
-    projectPath: Assets\Resources\Textures\wall01.png
+  - path: Temp/UnityTempFile-01cd1e96caad3465f9588637528bfd8f
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Temp/UnityTempFile-01cd1e96caad3465f9588637528bfd8f
+    projectPath: Temp/UnityTempFile-01cd1e96caad3465f9588637528bfd8f
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Resources\Textures\wall01.png.meta
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Assets\Resources\Textures\wall01.png.meta
-    projectPath: Assets\Resources\Textures\wall01.png.meta
+  - path: Temp/UnityTempFile-0578706a316da467c9c35021d055819c
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Temp/UnityTempFile-0578706a316da467c9c35021d055819c
+    projectPath: Temp/UnityTempFile-0578706a316da467c9c35021d055819c
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Resources\Textures\wall02.png
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Assets\Resources\Textures\wall02.png
-    projectPath: Assets\Resources\Textures\wall02.png
+  - path: Temp/UnityTempFile-0c61fa657aa9942d9919672518b18214
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Temp/UnityTempFile-0c61fa657aa9942d9919672518b18214
+    projectPath: Temp/UnityTempFile-0c61fa657aa9942d9919672518b18214
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Resources\Textures\wall02.png.meta
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Assets\Resources\Textures\wall02.png.meta
-    projectPath: Assets\Resources\Textures\wall02.png.meta
+  - path: Temp/UnityTempFile-0d3e4809e7c9343608eb5080be3dc26d
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Temp/UnityTempFile-0d3e4809e7c9343608eb5080be3dc26d
+    projectPath: Temp/UnityTempFile-0d3e4809e7c9343608eb5080be3dc26d
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Scenes\SampleScene.unity
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Assets\Scenes\SampleScene.unity
-    projectPath: Assets\Scenes\SampleScene.unity
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\APIUpdater\project-dependencies.graph
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\APIUpdater\project-dependencies.graph
-    projectPath: Library\APIUpdater\project-dependencies.graph
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\assetDatabase3
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\assetDatabase3
-    projectPath: Library\assetDatabase3
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\AssetImportState
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\AssetImportState
-    projectPath: Library\AssetImportState
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Collab\CollabSnapshot_9ca698f7-e7af-4dad-8a86-859b7de12442.txt
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\Collab\CollabSnapshot_9ca698f7-e7af-4dad-8a86-859b7de12442.txt
-    projectPath: Library\Collab\CollabSnapshot_9ca698f7-e7af-4dad-8a86-859b7de12442.txt
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\EditorInstance.json
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\EditorInstance.json
-    projectPath: Library\EditorInstance.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\EditorUserBuildSettings.asset
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\EditorUserBuildSettings.asset
-    projectPath: Library\EditorUserBuildSettings.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\gfu\cache\gitlocks.yaml
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\gfu\cache\gitlocks.yaml
-    projectPath: Library\gfu\cache\gitlocks.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\gfu\cache\gitlog.yaml
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\gfu\cache\gitlog.yaml
-    projectPath: Library\gfu\cache\gitlog.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\gfu\cache\gitstatusentries.yaml
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\gfu\cache\gitstatusentries.yaml
-    projectPath: Library\gfu\cache\gitstatusentries.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\gfu\cache\gittrackingstatus.yaml
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\gfu\cache\gittrackingstatus.yaml
-    projectPath: Library\gfu\cache\gittrackingstatus.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\gfu\cache\repoinfo.yaml
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\gfu\cache\repoinfo.yaml
-    projectPath: Library\gfu\cache\repoinfo.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\InspectorExpandedItems.asset
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\InspectorExpandedItems.asset
-    projectPath: Library\InspectorExpandedItems.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9
-    projectPath: Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\11\1186e0491049e40ba8e7e19e418d9e8e.info
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\metadata\11\1186e0491049e40ba8e7e19e418d9e8e.info
-    projectPath: Library\metadata\11\1186e0491049e40ba8e7e19e418d9e8e.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\13\136dc24f151211d438acee17aff4e934
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\metadata\13\136dc24f151211d438acee17aff4e934
-    projectPath: Library\metadata\13\136dc24f151211d438acee17aff4e934
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\18\181f65fb096cedd4493bc9971257d8b1.info
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\metadata\18\181f65fb096cedd4493bc9971257d8b1.info
-    projectPath: Library\metadata\18\181f65fb096cedd4493bc9971257d8b1.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\23\23c8bee69b591054094d32918f98facd.info
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\metadata\23\23c8bee69b591054094d32918f98facd.info
-    projectPath: Library\metadata\23\23c8bee69b591054094d32918f98facd.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6.info
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6.info
-    projectPath: Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\25\25a6ec65fd3a53b4799d7a22a552d77e
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\metadata\25\25a6ec65fd3a53b4799d7a22a552d77e
-    projectPath: Library\metadata\25\25a6ec65fd3a53b4799d7a22a552d77e
+  - path: Temp/UnityTempFile-15f56f75698f64c9d9f12f0d61a46af0
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Temp/UnityTempFile-15f56f75698f64c9d9f12f0d61a46af0
+    projectPath: Temp/UnityTempFile-15f56f75698f64c9d9f12f0d61a46af0
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\metadata\25\25a6ec65fd3a53b4799d7a22a552d77e.info
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\metadata\25\25a6ec65fd3a53b4799d7a22a552d77e.info
-    projectPath: Library\metadata\25\25a6ec65fd3a53b4799d7a22a552d77e.info
+  - path: Temp/UnityTempFile-1869338cfe302463aa3af98ea052942b
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Temp/UnityTempFile-1869338cfe302463aa3af98ea052942b
+    projectPath: Temp/UnityTempFile-1869338cfe302463aa3af98ea052942b
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\metadata\33\33d3e83914445de4d92ab0d77d7fa3f9.info
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\metadata\33\33d3e83914445de4d92ab0d77d7fa3f9.info
-    projectPath: Library\metadata\33\33d3e83914445de4d92ab0d77d7fa3f9.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\44\44567fddcd8af294e95836e181608285
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\metadata\44\44567fddcd8af294e95836e181608285
-    projectPath: Library\metadata\44\44567fddcd8af294e95836e181608285
+  - path: Temp/UnityTempFile-199742184b8344f98a38709425c55399
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Temp/UnityTempFile-199742184b8344f98a38709425c55399
+    projectPath: Temp/UnityTempFile-199742184b8344f98a38709425c55399
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\metadata\44\44567fddcd8af294e95836e181608285.info
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\metadata\44\44567fddcd8af294e95836e181608285.info
-    projectPath: Library\metadata\44\44567fddcd8af294e95836e181608285.info
+  - path: Temp/UnityTempFile-32780ee0317db4e3aae32f3a89faed7b
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Temp/UnityTempFile-32780ee0317db4e3aae32f3a89faed7b
+    projectPath: Temp/UnityTempFile-32780ee0317db4e3aae32f3a89faed7b
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\metadata\48\480071253ef427a4cbc55ef1fedca3e5.info
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\metadata\48\480071253ef427a4cbc55ef1fedca3e5.info
-    projectPath: Library\metadata\48\480071253ef427a4cbc55ef1fedca3e5.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\4b\4ba2329b63d54f0187bcaa12486b1b0f
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\metadata\4b\4ba2329b63d54f0187bcaa12486b1b0f
-    projectPath: Library\metadata\4b\4ba2329b63d54f0187bcaa12486b1b0f
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\4b\4ba86e5b8d6657b4184ff6b976ac3d3e.info
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\metadata\4b\4ba86e5b8d6657b4184ff6b976ac3d3e.info
-    projectPath: Library\metadata\4b\4ba86e5b8d6657b4184ff6b976ac3d3e.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\55\555cd6f54c03341b1970d950df1a5ee5
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\metadata\55\555cd6f54c03341b1970d950df1a5ee5
-    projectPath: Library\metadata\55\555cd6f54c03341b1970d950df1a5ee5
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\5a\5a2082a44711bad4b90f693579c2b336.info
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\metadata\5a\5a2082a44711bad4b90f693579c2b336.info
-    projectPath: Library\metadata\5a\5a2082a44711bad4b90f693579c2b336.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\6d\6d8cd2a9c493e7648ac755cdbe03cf83.info
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\metadata\6d\6d8cd2a9c493e7648ac755cdbe03cf83.info
-    projectPath: Library\metadata\6d\6d8cd2a9c493e7648ac755cdbe03cf83.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\6e\6e4df876417ac4c4f8862a5234b25615.info
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\metadata\6e\6e4df876417ac4c4f8862a5234b25615.info
-    projectPath: Library\metadata\6e\6e4df876417ac4c4f8862a5234b25615.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\87\877ef3585573ce44eab899298be23158.info
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\metadata\87\877ef3585573ce44eab899298be23158.info
-    projectPath: Library\metadata\87\877ef3585573ce44eab899298be23158.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\88\88362702a8425c142aff3ee165b74406
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\metadata\88\88362702a8425c142aff3ee165b74406
-    projectPath: Library\metadata\88\88362702a8425c142aff3ee165b74406
+  - path: Temp/UnityTempFile-35b29083f27a544158f0b4ba04bf46c6
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Temp/UnityTempFile-35b29083f27a544158f0b4ba04bf46c6
+    projectPath: Temp/UnityTempFile-35b29083f27a544158f0b4ba04bf46c6
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\metadata\88\88362702a8425c142aff3ee165b74406.info
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\metadata\88\88362702a8425c142aff3ee165b74406.info
-    projectPath: Library\metadata\88\88362702a8425c142aff3ee165b74406.info
+  - path: Temp/UnityTempFile-45401eeb417ed4be4b076f8f2468741e
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Temp/UnityTempFile-45401eeb417ed4be4b076f8f2468741e
+    projectPath: Temp/UnityTempFile-45401eeb417ed4be4b076f8f2468741e
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\metadata\92\92661f52b4463d54788e2b5be0c78f38
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\metadata\92\92661f52b4463d54788e2b5be0c78f38
-    projectPath: Library\metadata\92\92661f52b4463d54788e2b5be0c78f38
+  - path: Temp/UnityTempFile-4ae908d3598e746a295b4b3da34c5e20
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Temp/UnityTempFile-4ae908d3598e746a295b4b3da34c5e20
+    projectPath: Temp/UnityTempFile-4ae908d3598e746a295b4b3da34c5e20
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\metadata\92\92661f52b4463d54788e2b5be0c78f38.info
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\metadata\92\92661f52b4463d54788e2b5be0c78f38.info
-    projectPath: Library\metadata\92\92661f52b4463d54788e2b5be0c78f38.info
+  - path: Temp/UnityTempFile-4f8f4896a62c3410a9736086c82ff9e9
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Temp/UnityTempFile-4f8f4896a62c3410a9736086c82ff9e9
+    projectPath: Temp/UnityTempFile-4f8f4896a62c3410a9736086c82ff9e9
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\metadata\b5\b51a8206824b744ce9ebba64d18b65ed
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\metadata\b5\b51a8206824b744ce9ebba64d18b65ed
-    projectPath: Library\metadata\b5\b51a8206824b744ce9ebba64d18b65ed
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\b5\b51a8206824b744ce9ebba64d18b65ed.info
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\metadata\b5\b51a8206824b744ce9ebba64d18b65ed.info
-    projectPath: Library\metadata\b5\b51a8206824b744ce9ebba64d18b65ed.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\b9\b92403995828141498b8540fabc54b04
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\metadata\b9\b92403995828141498b8540fabc54b04
-    projectPath: Library\metadata\b9\b92403995828141498b8540fabc54b04
+  - path: Temp/UnityTempFile-5e0af050990534ed4b7679cfcebe5917
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Temp/UnityTempFile-5e0af050990534ed4b7679cfcebe5917
+    projectPath: Temp/UnityTempFile-5e0af050990534ed4b7679cfcebe5917
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\metadata\b9\b92403995828141498b8540fabc54b04.info
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\metadata\b9\b92403995828141498b8540fabc54b04.info
-    projectPath: Library\metadata\b9\b92403995828141498b8540fabc54b04.info
+  - path: Temp/UnityTempFile-6627f5095e6be43a6a408b1998a3f59f
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Temp/UnityTempFile-6627f5095e6be43a6a408b1998a3f59f
+    projectPath: Temp/UnityTempFile-6627f5095e6be43a6a408b1998a3f59f
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\metadata\c0\c0809c8f0ddd4b546939f6fe7a94ac6c.info
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\metadata\c0\c0809c8f0ddd4b546939f6fe7a94ac6c.info
-    projectPath: Library\metadata\c0\c0809c8f0ddd4b546939f6fe7a94ac6c.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\c5\c5c83d14802e712408f23409f3c59e26.info
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\metadata\c5\c5c83d14802e712408f23409f3c59e26.info
-    projectPath: Library\metadata\c5\c5c83d14802e712408f23409f3c59e26.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8.info
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8.info
-    projectPath: Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\da\dae2ecee8a704dd59797e26554ff8606
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\metadata\da\dae2ecee8a704dd59797e26554ff8606
-    projectPath: Library\metadata\da\dae2ecee8a704dd59797e26554ff8606
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\e7\e7a2113235cfcc0448bb1352eb306309
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\metadata\e7\e7a2113235cfcc0448bb1352eb306309
-    projectPath: Library\metadata\e7\e7a2113235cfcc0448bb1352eb306309
+  - path: Temp/UnityTempFile-6927d69da9af04df9a792a6047407716
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Temp/UnityTempFile-6927d69da9af04df9a792a6047407716
+    projectPath: Temp/UnityTempFile-6927d69da9af04df9a792a6047407716
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\metadata\e7\e7a2113235cfcc0448bb1352eb306309.info
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\metadata\e7\e7a2113235cfcc0448bb1352eb306309.info
-    projectPath: Library\metadata\e7\e7a2113235cfcc0448bb1352eb306309.info
+  - path: Temp/UnityTempFile-6b73fb8e15fa94844ab2f6d8d49c92eb
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Temp/UnityTempFile-6b73fb8e15fa94844ab2f6d8d49c92eb
+    projectPath: Temp/UnityTempFile-6b73fb8e15fa94844ab2f6d8d49c92eb
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\metadata\f4\f44bd7cff262164469c52186adcfd43d
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\metadata\f4\f44bd7cff262164469c52186adcfd43d
-    projectPath: Library\metadata\f4\f44bd7cff262164469c52186adcfd43d
+  - path: Temp/UnityTempFile-724f723bced5c4f22b309c5621207a2c
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Temp/UnityTempFile-724f723bced5c4f22b309c5621207a2c
+    projectPath: Temp/UnityTempFile-724f723bced5c4f22b309c5621207a2c
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\metadata\f4\f44bd7cff262164469c52186adcfd43d.info
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\metadata\f4\f44bd7cff262164469c52186adcfd43d.info
-    projectPath: Library\metadata\f4\f44bd7cff262164469c52186adcfd43d.info
+  - path: Temp/UnityTempFile-7c2cd0cd28098422aaad253f38d6b189
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Temp/UnityTempFile-7c2cd0cd28098422aaad253f38d6b189
+    projectPath: Temp/UnityTempFile-7c2cd0cd28098422aaad253f38d6b189
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\metadata\f8\f81094832d834c64d93b198cb16b6a3e.info
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\metadata\f8\f81094832d834c64d93b198cb16b6a3e.info
-    projectPath: Library\metadata\f8\f81094832d834c64d93b198cb16b6a3e.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Assembly-CSharp.dll
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\ScriptAssemblies\Assembly-CSharp.dll
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\ScriptAssemblies\Assembly-CSharp.pdb
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\BuiltinAssemblies.stamp
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\ScriptAssemblies\BuiltinAssemblies.stamp
-    projectPath: Library\ScriptAssemblies\BuiltinAssemblies.stamp
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.2D.Sprite.Editor.pdb
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.pdb
-    projectPath: Library\ScriptAssemblies\Unity.2D.Sprite.Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.pdb
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.pdb
-    projectPath: Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
-    projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.Rider.Editor.dll
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.Rider.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.Rider.Editor.pdb
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\ScriptAssemblies\Unity.Rider.Editor.pdb
-    projectPath: Library\ScriptAssemblies\Unity.Rider.Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.TextMeshPro.dll
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
-    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.TextMeshPro.pdb
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\ScriptAssemblies\Unity.TextMeshPro.pdb
-    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.Timeline.dll
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\ScriptAssemblies\Unity.Timeline.dll
-    projectPath: Library\ScriptAssemblies\Unity.Timeline.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.Timeline.Editor.pdb
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\ScriptAssemblies\Unity.Timeline.Editor.pdb
-    projectPath: Library\ScriptAssemblies\Unity.Timeline.Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.Timeline.pdb
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\ScriptAssemblies\Unity.Timeline.pdb
-    projectPath: Library\ScriptAssemblies\Unity.Timeline.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.VSCode.Editor.pdb
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\ScriptAssemblies\Unity.VSCode.Editor.pdb
-    projectPath: Library\ScriptAssemblies\Unity.VSCode.Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-    projectPath: Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\UnityEditor.TestRunner.pdb
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\ScriptAssemblies\UnityEditor.TestRunner.pdb
-    projectPath: Library\ScriptAssemblies\UnityEditor.TestRunner.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\UnityEditor.UI.dll
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\ScriptAssemblies\UnityEditor.UI.dll
-    projectPath: Library\ScriptAssemblies\UnityEditor.UI.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\UnityEditor.UI.pdb
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\ScriptAssemblies\UnityEditor.UI.pdb
-    projectPath: Library\ScriptAssemblies\UnityEditor.UI.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-    projectPath: Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\UnityEngine.TestRunner.pdb
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\ScriptAssemblies\UnityEngine.TestRunner.pdb
-    projectPath: Library\ScriptAssemblies\UnityEngine.TestRunner.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\UnityEngine.UI.dll
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\ScriptAssemblies\UnityEngine.UI.dll
-    projectPath: Library\ScriptAssemblies\UnityEngine.UI.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\UnityEngine.UI.pdb
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\ScriptAssemblies\UnityEngine.UI.pdb
-    projectPath: Library\ScriptAssemblies\UnityEngine.UI.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ShaderCache\1\1bd1d9f71881e3f5dc67f60cce03ea9c.bin
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\ShaderCache\1\1bd1d9f71881e3f5dc67f60cce03ea9c.bin
-    projectPath: Library\ShaderCache\1\1bd1d9f71881e3f5dc67f60cce03ea9c.bin
+  - path: Temp/UnityTempFile-7f7416ec28da5475cb4b7ea75e4eb6cd
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Temp/UnityTempFile-7f7416ec28da5475cb4b7ea75e4eb6cd
+    projectPath: Temp/UnityTempFile-7f7416ec28da5475cb4b7ea75e4eb6cd
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\ShaderCache\f\fddbf8ed46e92bf55bada5bebbb7cfb7.bin
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\ShaderCache\f\fddbf8ed46e92bf55bada5bebbb7cfb7.bin
-    projectPath: Library\ShaderCache\f\fddbf8ed46e92bf55bada5bebbb7cfb7.bin
+  - path: Temp/UnityTempFile-8179d007a89d341a4b180330073aaaf6
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Temp/UnityTempFile-8179d007a89d341a4b180330073aaaf6
+    projectPath: Temp/UnityTempFile-8179d007a89d341a4b180330073aaaf6
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\shadercompiler-UnityShaderCompiler.exe1.log
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\shadercompiler-UnityShaderCompiler.exe1.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe1.log
+  - path: Temp/UnityTempFile-85816df5c3fc04743b1b36cfe4076e11
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Temp/UnityTempFile-85816df5c3fc04743b1b36cfe4076e11
+    projectPath: Temp/UnityTempFile-85816df5c3fc04743b1b36cfe4076e11
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\shadercompiler-UnityShaderCompiler.exe2.log
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\shadercompiler-UnityShaderCompiler.exe2.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe2.log
+  - path: Temp/UnityTempFile-8e773fa0636ef49a5bdaa37c820b3205
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Temp/UnityTempFile-8e773fa0636ef49a5bdaa37c820b3205
+    projectPath: Temp/UnityTempFile-8e773fa0636ef49a5bdaa37c820b3205
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\StateCache\Hierarchy\d08bb8-mainStage.json
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\StateCache\Hierarchy\d08bb8-mainStage.json
-    projectPath: Library\StateCache\Hierarchy\d08bb8-mainStage.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\StateCache\SceneView\2d3a4b-mainStage.json
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Library\StateCache\SceneView\2d3a4b-mainStage.json
-    projectPath: Library\StateCache\SceneView\2d3a4b-mainStage.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: ProjectSettings\QualitySettings.asset
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\ProjectSettings\QualitySettings.asset
-    projectPath: ProjectSettings\QualitySettings.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: ProjectSettings\UnityConnectSettings.asset
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\ProjectSettings\UnityConnectSettings.asset
-    projectPath: ProjectSettings\UnityConnectSettings.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Temp\__Backupscenes\0.backup
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Temp\__Backupscenes\0.backup
-    projectPath: Temp\__Backupscenes\0.backup
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Temp\UnityLockfile
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Temp\UnityLockfile
-    projectPath: Temp\UnityLockfile
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Temp\UnityTempFile-14f7277e344baf94aa072ecbfa99aada
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Temp\UnityTempFile-14f7277e344baf94aa072ecbfa99aada
-    projectPath: Temp\UnityTempFile-14f7277e344baf94aa072ecbfa99aada
+  - path: Temp/UnityTempFile-928bef755946144da94510e48e5b4c9d
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Temp/UnityTempFile-928bef755946144da94510e48e5b4c9d
+    projectPath: Temp/UnityTempFile-928bef755946144da94510e48e5b4c9d
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-1651fea39f4858841940519e53f335a4
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Temp\UnityTempFile-1651fea39f4858841940519e53f335a4
-    projectPath: Temp\UnityTempFile-1651fea39f4858841940519e53f335a4
+  - path: Temp/UnityTempFile-93349b65ecb3344269feda16141d7d2e
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Temp/UnityTempFile-93349b65ecb3344269feda16141d7d2e
+    projectPath: Temp/UnityTempFile-93349b65ecb3344269feda16141d7d2e
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-1e6502f06db75ce46833c3f406103af8
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Temp\UnityTempFile-1e6502f06db75ce46833c3f406103af8
-    projectPath: Temp\UnityTempFile-1e6502f06db75ce46833c3f406103af8
+  - path: Temp/UnityTempFile-a80ac797a64e9452ba26c05a254ef306
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Temp/UnityTempFile-a80ac797a64e9452ba26c05a254ef306
+    projectPath: Temp/UnityTempFile-a80ac797a64e9452ba26c05a254ef306
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-2479b79a8e626b94782e8cec3840c11d
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Temp\UnityTempFile-2479b79a8e626b94782e8cec3840c11d
-    projectPath: Temp\UnityTempFile-2479b79a8e626b94782e8cec3840c11d
+  - path: Temp/UnityTempFile-b4358ec09c6a64b3793cbc5977b97467
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Temp/UnityTempFile-b4358ec09c6a64b3793cbc5977b97467
+    projectPath: Temp/UnityTempFile-b4358ec09c6a64b3793cbc5977b97467
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-27a63141e676d9746acc1923fba2986c
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Temp\UnityTempFile-27a63141e676d9746acc1923fba2986c
-    projectPath: Temp\UnityTempFile-27a63141e676d9746acc1923fba2986c
+  - path: Temp/UnityTempFile-b644a9689509a48c4b77426b4b060a07
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Temp/UnityTempFile-b644a9689509a48c4b77426b4b060a07
+    projectPath: Temp/UnityTempFile-b644a9689509a48c4b77426b4b060a07
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-2eff3729dc21a654abfcfdc0989bb323
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Temp\UnityTempFile-2eff3729dc21a654abfcfdc0989bb323
-    projectPath: Temp\UnityTempFile-2eff3729dc21a654abfcfdc0989bb323
+  - path: Temp/UnityTempFile-c0b03cef13c5543fe93dac98ecddadd6
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Temp/UnityTempFile-c0b03cef13c5543fe93dac98ecddadd6
+    projectPath: Temp/UnityTempFile-c0b03cef13c5543fe93dac98ecddadd6
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-306d71675a2c50443adfc77547b25f9f
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Temp\UnityTempFile-306d71675a2c50443adfc77547b25f9f
-    projectPath: Temp\UnityTempFile-306d71675a2c50443adfc77547b25f9f
+  - path: Temp/UnityTempFile-c3016464489ec44ebb4f01f1668959b2
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Temp/UnityTempFile-c3016464489ec44ebb4f01f1668959b2
+    projectPath: Temp/UnityTempFile-c3016464489ec44ebb4f01f1668959b2
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-3cff7a0345a08174994933b98997a50a
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Temp\UnityTempFile-3cff7a0345a08174994933b98997a50a
-    projectPath: Temp\UnityTempFile-3cff7a0345a08174994933b98997a50a
+  - path: Temp/UnityTempFile-dc9fdbc59527a415789d9bfb67b94bed
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Temp/UnityTempFile-dc9fdbc59527a415789d9bfb67b94bed
+    projectPath: Temp/UnityTempFile-dc9fdbc59527a415789d9bfb67b94bed
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-4701950b3945bc1409bd4f666e46941e
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Temp\UnityTempFile-4701950b3945bc1409bd4f666e46941e
-    projectPath: Temp\UnityTempFile-4701950b3945bc1409bd4f666e46941e
+  - path: Temp/UnityTempFile-f6476986b1b2b4413be13dded2438e30
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Temp/UnityTempFile-f6476986b1b2b4413be13dded2438e30
+    projectPath: Temp/UnityTempFile-f6476986b1b2b4413be13dded2438e30
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-5ce3b72f4be3b6240acec114a3cb5977
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Temp\UnityTempFile-5ce3b72f4be3b6240acec114a3cb5977
-    projectPath: Temp\UnityTempFile-5ce3b72f4be3b6240acec114a3cb5977
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-681b088c07b009b4fae0ef39b65250ba
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Temp\UnityTempFile-681b088c07b009b4fae0ef39b65250ba
-    projectPath: Temp\UnityTempFile-681b088c07b009b4fae0ef39b65250ba
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-6c58093375fc41843a33de1e92e3719c
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Temp\UnityTempFile-6c58093375fc41843a33de1e92e3719c
-    projectPath: Temp\UnityTempFile-6c58093375fc41843a33de1e92e3719c
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-880d236a42e11c74980b94616f7a9456
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Temp\UnityTempFile-880d236a42e11c74980b94616f7a9456
-    projectPath: Temp\UnityTempFile-880d236a42e11c74980b94616f7a9456
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-902003016e82a3d4695b2dea531a4996
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Temp\UnityTempFile-902003016e82a3d4695b2dea531a4996
-    projectPath: Temp\UnityTempFile-902003016e82a3d4695b2dea531a4996
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-9e39c5720fc89614eadbdf5598c303e9
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Temp\UnityTempFile-9e39c5720fc89614eadbdf5598c303e9
-    projectPath: Temp\UnityTempFile-9e39c5720fc89614eadbdf5598c303e9
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-a3b97b60d47d8484fb8d4304c15845a8
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Temp\UnityTempFile-a3b97b60d47d8484fb8d4304c15845a8
-    projectPath: Temp\UnityTempFile-a3b97b60d47d8484fb8d4304c15845a8
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-ae1670198543d524980a99140c5b00a8
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Temp\UnityTempFile-ae1670198543d524980a99140c5b00a8
-    projectPath: Temp\UnityTempFile-ae1670198543d524980a99140c5b00a8
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-c0682376885288a4cbf22cfb1f82026e
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Temp\UnityTempFile-c0682376885288a4cbf22cfb1f82026e
-    projectPath: Temp\UnityTempFile-c0682376885288a4cbf22cfb1f82026e
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-cd3b7537764201047b33c76ff6911f94
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Temp\UnityTempFile-cd3b7537764201047b33c76ff6911f94
-    projectPath: Temp\UnityTempFile-cd3b7537764201047b33c76ff6911f94
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-d78d19ccb301daf4388a405b4c0ef02d
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Temp\UnityTempFile-d78d19ccb301daf4388a405b4c0ef02d
-    projectPath: Temp\UnityTempFile-d78d19ccb301daf4388a405b4c0ef02d
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-dc298331aa790f0448a6b119c2449d36
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Temp\UnityTempFile-dc298331aa790f0448a6b119c2449d36
-    projectPath: Temp\UnityTempFile-dc298331aa790f0448a6b119c2449d36
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-e0c4861c8b0ff004aa2742eb3e1cc860
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Temp\UnityTempFile-e0c4861c8b0ff004aa2742eb3e1cc860
-    projectPath: Temp\UnityTempFile-e0c4861c8b0ff004aa2742eb3e1cc860
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-e1bf3d4982357d8409f5956487c6bfe5
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Temp\UnityTempFile-e1bf3d4982357d8409f5956487c6bfe5
-    projectPath: Temp\UnityTempFile-e1bf3d4982357d8409f5956487c6bfe5
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-e626073b54e62b54991de6299bb55632
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Temp\UnityTempFile-e626073b54e62b54991de6299bb55632
-    projectPath: Temp\UnityTempFile-e626073b54e62b54991de6299bb55632
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-ee9b2117e8b48884d9c2a56125721759
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Temp\UnityTempFile-ee9b2117e8b48884d9c2a56125721759
-    projectPath: Temp\UnityTempFile-ee9b2117e8b48884d9c2a56125721759
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-f0b3dc8b428c4dd46ba266a86fb0a0c0
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Temp\UnityTempFile-f0b3dc8b428c4dd46ba266a86fb0a0c0
-    projectPath: Temp\UnityTempFile-f0b3dc8b428c4dd46ba266a86fb0a0c0
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-f2eb5d54c9abfa146a8568c16a166b6f
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Temp\UnityTempFile-f2eb5d54c9abfa146a8568c16a166b6f
-    projectPath: Temp\UnityTempFile-f2eb5d54c9abfa146a8568c16a166b6f
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-f30593ae1608ea8468d5e377da78b457
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Temp\UnityTempFile-f30593ae1608ea8468d5e377da78b457
-    projectPath: Temp\UnityTempFile-f30593ae1608ea8468d5e377da78b457
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-fa1b2c4317e9ef342a4c16d8fecd8f64
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Temp\UnityTempFile-fa1b2c4317e9ef342a4c16d8fecd8f64
-    projectPath: Temp\UnityTempFile-fa1b2c4317e9ef342a4c16d8fecd8f64
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-fa704fb1cbce6da4fbae44cee6b48efd
-    fullPath: E:\school related\wustl\450\WashU combat! Moltgey\Temp\UnityTempFile-fa704fb1cbce6da4fbae44cee6b48efd
-    projectPath: Temp\UnityTempFile-fa704fb1cbce6da4fbae44cee6b48efd
+  - path: Temp/UnityTempFile-fd9369d209aa845fa8bee34b66a46f30
+    fullPath: /Users/zhanglongpeng/Desktop/Fall 2019/450/project/Moltgey/Temp/UnityTempFile-fd9369d209aa845fa8bee34b66a46f30
+    projectPath: Temp/UnityTempFile-fd9369d209aa845fa8bee34b66a46f30
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
