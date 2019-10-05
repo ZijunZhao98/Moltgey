@@ -256,7 +256,7 @@ Animator:
   m_GameObject: {fileID: 384096721}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3775f9186083d4303a4438c58b76e03b, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -277,7 +277,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1ca2ad6e08e44c5bac517e04b29f92a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 0}
+  animator: {fileID: 384096723}
 --- !u!212 &384096725
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -534,6 +534,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1836734993220726339, guid: b7e0ce7993ab46e4e9fa747d2cc40fd6,
+        type: 3}
+      propertyPath: m_Name
+      value: enter_new_scene_collider
+      objectReference: {fileID: 0}
     - target: {fileID: 1243814757894037983, guid: b7e0ce7993ab46e4e9fa747d2cc40fd6,
         type: 3}
       propertyPath: m_Offset.x
@@ -558,11 +563,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsTrigger
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1836734993220726339, guid: b7e0ce7993ab46e4e9fa747d2cc40fd6,
-        type: 3}
-      propertyPath: m_Name
-      value: enter_new_scene_collider
       objectReference: {fileID: 0}
     - target: {fileID: 4823497819823489716, guid: b7e0ce7993ab46e4e9fa747d2cc40fd6,
         type: 3}

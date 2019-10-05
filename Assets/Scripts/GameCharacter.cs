@@ -7,6 +7,7 @@ public class GameCharacter : MonoBehaviour
 
     public Animator animator;
     Rigidbody2D rigidbody;
+    private SpriteRenderer sprite;
 
     //private static bool created = false;
 
@@ -35,7 +36,7 @@ public class GameCharacter : MonoBehaviour
 
 
         //animator.SetFloat("Horizontal", Input.GetAxis("Horizontal"));
-        if (Input.GetKey(KeyCode.UpArrow))
+        /*if (Input.GetKey(KeyCode.UpArrow))
         {
             transform.position += new Vector3(0, 0.2f, 0);
         }
@@ -50,9 +51,18 @@ public class GameCharacter : MonoBehaviour
         if (Input.GetKey(KeyCode.LeftArrow))
         {
             transform.position += new Vector3(-0.2f, 0, 0);
-        }
+        }*/
+        animator.SetFloat(("Vertical"),Input.GetAxis("Vertical"));
+        animator.SetFloat("Horizontal", Input.GetAxis("Horizontal"));
+
         Vector3 horizontal = new Vector3(Input.GetAxis("Horizontal"), 0.0f, 0.0f);
         transform.position = transform.position + horizontal*Time.deltaTime;
+        Vector3 vertical = new Vector3(0.0f, Input.GetAxis("Vertical"), 0.0f);
+        transform.position = transform.position + vertical*Time.deltaTime;
+        
+        
+        
     }
+    
 
 }
