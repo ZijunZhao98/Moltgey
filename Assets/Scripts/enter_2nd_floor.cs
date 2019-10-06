@@ -11,8 +11,8 @@ public class enter_2nd_floor : MonoBehaviour
         if(collision.CompareTag("Player"))
         {
             //SceneManager.LoadScene(newScene);
-            //DontDestroyOnLoad(collision.gameObject);
-            SceneManager.LoadScene(1, LoadSceneMode.Additive);
+            DontDestroyOnLoad(collision.gameObject);
+            SceneManager.LoadScene(1);
 
             //SceneManager.MoveGameObjectToScene(collision.gameObject, SceneManager.GetSceneByBuildIndex(1));
             collision.gameObject.transform.position = new Vector3(0, 0, 0);
