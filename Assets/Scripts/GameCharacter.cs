@@ -9,60 +9,60 @@ public class GameCharacter : MonoBehaviour
     Rigidbody2D rigidbody;
     private SpriteRenderer sprite;
 
-    //private static bool created = false;
 
-    ////code from documentation: https://docs.unity3d.com/ScriptReference/SceneManagement.Scene-name.html
-    //private void Awake()
-    //{
-    //    if (!created)
-    //    {
-    //        DontDestroyOnLoad(this.gameObject);
-    //        created = true;
-    //    }
-    //    else
-    //    {
-    //        Destroy(this.gameObject);
-    //    }
-
-    //}
     // Start is called before the first frame update
     void Start()
     {
+        rigidbody = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
-
-
-        //animator.SetFloat("Horizontal", Input.GetAxis("Horizontal"));
-        /*if (Input.GetKey(KeyCode.UpArrow))
+       
+        if (Input.GetKey(KeyCode.UpArrow))
         {
             transform.position += new Vector3(0, 0.2f, 0);
+
         }
         if (Input.GetKey(KeyCode.DownArrow))
         {
             transform.position += new Vector3(0, -0.2f, 0);
+
         }
         if (Input.GetKey(KeyCode.RightArrow))
         {
             transform.position += new Vector3(0.2f, 0, 0);
         }
+
         if (Input.GetKey(KeyCode.LeftArrow))
         {
             transform.position += new Vector3(-0.2f, 0, 0);
-        }*/
-        animator.SetFloat(("Vertical"),Input.GetAxis("Vertical"));
-        animator.SetFloat("Horizontal", Input.GetAxis("Horizontal"));
+        }
 
-        Vector3 horizontal = new Vector3(Input.GetAxis("Horizontal"), 0.0f, 0.0f);
-        transform.position = transform.position + horizontal*Time.deltaTime;
-        Vector3 vertical = new Vector3(0.0f, Input.GetAxis("Vertical"), 0.0f);
-        transform.position = transform.position + vertical*Time.deltaTime;
+        //send values to animator
+        animator.SetBool("Change", Input.GetKeyUp(KeyCode.UpArrow) || Input.GetKeyUp(KeyCode.RightArrow) || Input.GetKeyUp(KeyCode.DownArrow) || Input.GetKeyUp(KeyCode.LeftArrow));
+        animator.SetBool("WalkRight", Input.GetKey(KeyCode.RightArrow));
+        animator.SetBool("WalkLeft", Input.GetKey(KeyCode.LeftArrow));
+        animator.SetBool("WalkDown", Input.GetKey(KeyCode.DownArrow));
+        animator.SetBool("WalkUp", Input.GetKey(KeyCode.UpArrow));
+        animator.SetFloat("Horizontal", Input.GetAxis("Horizontal"));
+        animator.SetFloat("Vertical", Input.GetAxis("Vertical"));
+
+        //Debug.Log(animator.GetCurrentAnimatorStateInfo(0).IsName("RunDown"));
         
         
-        
+
+
+        //Vector3 horizontal = new Vector3(Input.GetAxis("Horizontal"), 0.0f, 0.0f);
+        //transform.position = transform.position + horizontal*Time.deltaTime;
+        //Vector3 vertical = new Vector3(0.0f, Input.GetAxis("Vertical"), 0.0f);
+        //transform.position = transform.position + vertical*Time.deltaTime;
+
+
+
     }
-    
+
 
 }
