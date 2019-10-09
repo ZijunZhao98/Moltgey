@@ -23,21 +23,24 @@ public class GameCharacter : MonoBehaviour
        
         if (Input.GetKey(KeyCode.UpArrow))
         {
+            AudioManager.instance.Play("Footsteps_on_Cement");
             transform.position += new Vector3(0, 0.2f, 0);
 
         }
         if (Input.GetKey(KeyCode.DownArrow))
         {
+            AudioManager.instance.Play("Footsteps_on_Cement");
             transform.position += new Vector3(0, -0.2f, 0);
-
         }
         if (Input.GetKey(KeyCode.RightArrow))
         {
+            AudioManager.instance.Play("Footsteps_on_Cement");
             transform.position += new Vector3(0.2f, 0, 0);
         }
 
         if (Input.GetKey(KeyCode.LeftArrow))
         {
+            AudioManager.instance.Play("Footsteps_on_Cement");
             transform.position += new Vector3(-0.2f, 0, 0);
         }
 
