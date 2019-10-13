@@ -45,7 +45,6 @@ public class GameCharacter : MonoBehaviour
         }
 
         //send values to animator
-        animator.SetBool("Change", Input.GetKeyUp(KeyCode.UpArrow) || Input.GetKeyUp(KeyCode.RightArrow) || Input.GetKeyUp(KeyCode.DownArrow) || Input.GetKeyUp(KeyCode.LeftArrow));
         animator.SetBool("WalkRight", Input.GetKey(KeyCode.RightArrow));
         animator.SetBool("WalkLeft", Input.GetKey(KeyCode.LeftArrow));
         animator.SetBool("WalkDown", Input.GetKey(KeyCode.DownArrow));
