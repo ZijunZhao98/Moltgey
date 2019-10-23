@@ -31,7 +31,8 @@ public class EnemyController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (scene.name == "First_floor")
+        
+        if (character != null)
         {
             dis = Vector2.Distance(transform.position, character.position);
             if (dis > slowingDistance)
@@ -42,14 +43,14 @@ public class EnemyController : MonoBehaviour
             {
                 speed = (dis / slowingDistance) * maxSpeed;
             }
-            if (dis > followDistance)
+            if (dis > followDistance & dis <stopDistance)
             {
                 transform.position = Vector2.MoveTowards(transform.position, character.position, speed * Time.deltaTime);
             }
-            /*else if(Vector2.Distance(transform.position,character.position)>stopDistance)
+            else if(Vector2.Distance(transform.position,character.position)>stopDistance)
             {
                 transform.position = Vector2.MoveTowards(transform.position, originalPos, speed * Time.deltaTime);
-            }*/
+            }
             else
             {
             
