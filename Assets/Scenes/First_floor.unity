@@ -466,7 +466,7 @@ GameObject:
   - component: {fileID: 384096728}
   - component: {fileID: 384096724}
   - component: {fileID: 384096727}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Charater
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -505,6 +505,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 384096723}
+  projectilePrefab: {fileID: 8747179105347570089, guid: 22953ad49984c5943befadc673fabbf1,
+    type: 3}
 --- !u!212 &384096725
 SpriteRenderer:
   m_ObjectHideFlags: 0

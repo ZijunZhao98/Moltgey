@@ -13,6 +13,7 @@ public class GameCharacter : MonoBehaviour
     public GameObject projectilePrefab;
 
     private SpriteRenderer sprite;
+    private int switchNum = 3;
 
     void Awake()
     {
@@ -49,31 +50,33 @@ public class GameCharacter : MonoBehaviour
         if (Input.GetKey(KeyCode.UpArrow))
         {
             //AudioManager.instance.Play("Footsteps_on_Cement");
+            switchNum = 1;
             transform.position += new Vector3(0, 0.2f, 0);
 
         }
         if (Input.GetKey(KeyCode.DownArrow))
         {
             //AudioManager.instance.Play("Footsteps_on_Cement");
+            switchNum = 2;
             transform.position += new Vector3(0, -0.2f, 0);
         }
         if (Input.GetKey(KeyCode.RightArrow))
         {
             //AudioManager.instance.Play("Footsteps_on_Cement");
+            switchNum = 3;
             transform.position += new Vector3(0.2f, 0, 0);
         }
 
         if (Input.GetKey(KeyCode.LeftArrow))
         {
             //AudioManager.instance.Play("Footsteps_on_Cement");
+            switchNum = 4;
             transform.position += new Vector3(-0.2f, 0, 0);
         }
 
         if (Input.GetKeyDown(KeyCode.X))
         {
-            GameObject newProjectile = Instantiate(projectilePrefab);
-            newProjectile.transform.position = transform.position;
-            newProjectile.transform.rotation = transform.rotation;
+            Shoot();
         }
 
         //send values to animator
@@ -84,7 +87,28 @@ public class GameCharacter : MonoBehaviour
         animator.SetFloat("Horizontal", Input.GetAxis("Horizontal"));
         animator.SetFloat("Vertical", Input.GetAxis("Vertical"));
 
+    }
 
+    private void Shoot()
+    {
+        GameObject newProjectile = Instantiate(projectilePrefab);
+        newProjectile.transform.position = new Vector3(transform.position.x, transform.position.y, -1);
+
+        switch (switchNum)
+        {
+            case 1:
+                newProjectile.transform.Rotate(0, 0, 90);
+                break;
+            case 2:
+                newProjectile.transform.Rotate(0, 0, -90);
+                break;
+            case 3:
+                newProjectile.transform.Rotate(0, 0, 0);
+                break;
+            case 4:
+                newProjectile.transform.Rotate(0, 180, 0);
+                break;
+        }
 
     }
 }
