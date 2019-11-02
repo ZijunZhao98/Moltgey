@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 2484586578708368148}
   - component: {fileID: 2484586578708368149}
   - component: {fileID: 2484586578708368150}
-  - component: {fileID: 2484586578708368151}
-  m_Layer: 0
+  - component: {fileID: 2022705220}
+  m_Layer: 10
   m_Name: Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70,8 +70,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 6204708611936910431, guid: 42f94706416bd524a914b410ff64454e,
+  m_SortingOrder: 3
+  m_Sprite: {fileID: -4486729102896458663, guid: 772457f4b53384d81915e196db10e720,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -96,20 +96,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   character: {fileID: 0}
-  speed: 1
+  maxSpeed: 3
   followDistance: 2.5
   stopDistance: 10
---- !u!136 &2484586578708368151
-CapsuleCollider:
+  slowingDistance: 10
+--- !u!70 &2022705220
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2484586578708368139}
+  m_Enabled: 1
+  m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.96875
-  m_Height: 2.8125
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 2.25, y: 2.875}
+  m_Direction: 0
