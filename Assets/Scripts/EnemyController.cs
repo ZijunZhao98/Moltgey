@@ -20,6 +20,12 @@ public class EnemyController : MonoBehaviour
     public float slowingDistance;
     float dis;
 
+    public GameObject projectilePrefab;
+    private int sn = 4;
+
+    private float time = 0.0f;
+    private float interval = 1.0f;
+
     Vector3 originalPos;
     // Start is called before the first frame update
     void Start()
@@ -32,9 +38,10 @@ public class EnemyController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-        if (scene.name == "First_floor")
+        if (scene.name == "Second_floor")
         {
+            character = GameObject.FindWithTag("Player").transform;
+            
             dis = Vector2.Distance(transform.position, character.position);
             if (dis > slowingDistance)
             {
@@ -56,8 +63,65 @@ public class EnemyController : MonoBehaviour
             {
             
             }
+
+            if ( Mathf.Abs(transform.position.x - character.position.x) >Mathf.Abs(transform.position.y - character.position.y))
+            {
+                if (transform.position.x > character.position.x)
+                {
+                    sn = 4;
+                }
+                else
+                {
+                    sn = 3;
+                }
+            }
+            else
+            {
+                if (transform.position.y > character.position.y)
+                {
+                    sn = 2;
+                }
+                else
+                {
+                    sn = 1;
+                }
+            }
+
+
+            time += Time.deltaTime;
+            if (time >= interval)
+            {
+                Shoot();
+                time = 0.0f;
+            }
         }
         
         
+    }
+    
+    
+    
+    
+    private void Shoot()
+    {
+        GameObject newProjectile = Instantiate(projectilePrefab);
+        newProjectile.transform.position = new Vector3(transform.position.x, transform.position.y, -1);
+
+        switch (sn)
+        {
+            case 1:
+                newProjectile.transform.Rotate(0, 0, 90);
+                break;
+            case 2:
+                newProjectile.transform.Rotate(0, 0, -90);
+                break;
+            case 3:
+                newProjectile.transform.Rotate(0, 0, 0);
+                break;
+            case 4:
+                newProjectile.transform.Rotate(0, 180, 0);
+                break;
+        }
+
     }
 }

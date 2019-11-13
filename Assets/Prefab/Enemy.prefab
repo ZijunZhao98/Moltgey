@@ -100,6 +100,8 @@ MonoBehaviour:
   followDistance: 2.5
   stopDistance: 10
   slowingDistance: 10
+  projectilePrefab: {fileID: 8747179105347570089, guid: 22953ad49984c5943befadc673fabbf1,
+    type: 3}
 --- !u!70 &2022705220
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

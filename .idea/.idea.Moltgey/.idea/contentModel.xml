@@ -11,6 +11,7 @@
           <e p="enter_new_scene.cs" t="Include" />
           <e p="FollowCamera.cs" t="Include" />
           <e p="GameCharacter.cs" t="Include" />
+          <e p="PlayerProjectile.cs" t="Include" />
         </e>
       </e>
       <e p="Moltgey.sln" t="IncludeFlat" />
