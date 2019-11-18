@@ -7,11 +7,14 @@
         <e p="Scripts" t="Include">
           <e p="AudioManager.cs" t="Include" />
           <e p="Dialogue.cs" t="Include" />
+
           <e p="DialogueManager.cs" t="Include" />
           <e p="DialogueTrigger.cs" t="Include" />
+          <e p="EnemyController.cs" t="Include" />
           <e p="enter_new_scene.cs" t="Include" />
           <e p="FollowCamera.cs" t="Include" />
           <e p="GameCharacter.cs" t="Include" />
+          <e p="PlayerProjectile.cs" t="Include" />
         </e>
       </e>
       <e p="Moltgey.sln" t="IncludeFlat" />
@@ -23,3 +26,4 @@
     <e p="$USER_HOME$/Library/Caches/Rider2019.2/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_Moltgey.-1787124985.00" t="ExcludeRecursive" />
   </component>
 </project>
+
