@@ -5,19 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
-    path: Assets/Scenes/First_floor.unity
-    guid: e966c805f972ad04eade46babd49813c
-  - enabled: 1
-    path: Assets/Scenes/Second_floor.unity
-    guid: 83212132aaad2004fa74ebba8d89f579
-  - enabled: 1
-    path: Assets/Scenes/Advisor.unity
-    guid: 13eb719091a8cbd42ac14f93a3bf85d4
-  - enabled: 1
-    path: Assets/Scenes/Student_union.unity
-    guid: 802a98c84387a1c4da45f63a46b66fd4
   m_configObjects: {}
