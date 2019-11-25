@@ -12,36 +12,31 @@ public class EnemyController : MonoBehaviour
     float speed;
 
     public float maxSpeed;
-
     public float followDistance;
-
     public float stopDistance;
-
     public float slowingDistance;
+    public float health = 50f;
     float dis;
 
     public GameObject projectilePrefab;
+
     private int sn = 4;
-
     private float time = 0.0f;
-    private float interval = 1.0f;
+    private float interval = 3.0f;
 
-    Vector3 originalPos;
     // Start is called before the first frame update
     void Start()
     {
-        scene = SceneManager.GetActiveScene();
-        originalPos = transform.position;
-        
+        //scene = SceneManager.GetActiveScene();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (scene.name == "Second_floor")
+        character = GameObject.FindWithTag("Player").transform;
+
+        if(character != null)
         {
-            character = GameObject.FindWithTag("Player").transform;
-            
             dis = Vector2.Distance(transform.position, character.position);
             if (dis > slowingDistance)
             {
@@ -51,77 +46,38 @@ public class EnemyController : MonoBehaviour
             {
                 speed = (dis / slowingDistance) * maxSpeed;
             }
-            if (dis > followDistance )
+            if (dis > followDistance)
             {
                 transform.position = Vector2.MoveTowards(transform.position, character.position, speed * Time.deltaTime);
             }
-            /*else if(Vector2.Distance(transform.position,character.position)>stopDistance)
-            {
-                transform.position = Vector2.MoveTowards(transform.position, originalPos, speed * Time.deltaTime);
-            }*/
-            else
-            {
-            
-            }
-
-            if ( Mathf.Abs(transform.position.x - character.position.x) >Mathf.Abs(transform.position.y - character.position.y))
-            {
-                if (transform.position.x > character.position.x)
-                {
-                    sn = 4;
-                }
-                else
-                {
-                    sn = 3;
-                }
-            }
-            else
-            {
-                if (transform.position.y > character.position.y)
-                {
-                    sn = 2;
-                }
-                else
-                {
-                    sn = 1;
-                }
-            }
-
 
             time += Time.deltaTime;
             if (time >= interval)
             {
-                Shoot();
+                GameObject newProjectile = Instantiate(projectilePrefab, transform.position, Quaternion.identity);
+                
+                
                 time = 0.0f;
             }
         }
-        
-        
+
     }
-    
-    
-    
-    
-    private void Shoot()
+
+    public void TakeDamage(float damageAmount)
     {
-        GameObject newProjectile = Instantiate(projectilePrefab);
-        newProjectile.transform.position = new Vector3(transform.position.x, transform.position.y, -1);
-
-        switch (sn)
+        health -= damageAmount;
+        if (health <= 0)
         {
-            case 1:
-                newProjectile.transform.Rotate(0, 0, 90);
-                break;
-            case 2:
-                newProjectile.transform.Rotate(0, 0, -90);
-                break;
-            case 3:
-                newProjectile.transform.Rotate(0, 0, 0);
-                break;
-            case 4:
-                newProjectile.transform.Rotate(0, 180, 0);
-                break;
+            Die();
         }
-
     }
+
+    void Die()
+    {
+        Destroy(gameObject);
+        //TODO: add bear bucks to player
+    }
+    
+    
 }
+ 

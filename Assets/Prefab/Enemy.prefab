@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2022705220}
   m_Layer: 10
   m_Name: Enemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -71,7 +71,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 3
-  m_Sprite: {fileID: -4486729102896458663, guid: 772457f4b53384d81915e196db10e720,
+  m_Sprite: {fileID: -2217675645458903204, guid: d9f81ddeb755bce46ac8cd58274e2704,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -100,7 +100,8 @@ MonoBehaviour:
   followDistance: 2.5
   stopDistance: 10
   slowingDistance: 10
-  projectilePrefab: {fileID: 8747179105347570089, guid: 22953ad49984c5943befadc673fabbf1,
+  health: 50
+  projectilePrefab: {fileID: 2689345010326483070, guid: 20c799f65b05eec47afc5128339b8552,
     type: 3}
 --- !u!70 &2022705220
 CapsuleCollider2D:
