@@ -4,16 +4,27 @@
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="cap.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="AudioManager.cs" t="Include" />
-          <e p="Dialogue.cs" t="Include" />
-
           <e p="DialogueManager.cs" t="Include" />
-          <e p="DialogueTrigger.cs" t="Include" />
           <e p="EnemyController.cs" t="Include" />
+          <e p="EnemyProjectile.cs" t="Include" />
           <e p="enter_new_scene.cs" t="Include" />
           <e p="FollowCamera.cs" t="Include" />
-          <e p="GameCharacter.cs" t="Include" />
+          <e p="lan" t="Include">
+            <e p="EnterAdvisorCenter.cs" t="Include" />
+            <e p="EnterFirstFloor.cs" t="Include" />
+            <e p="EnterSecondFloor.cs" t="Include" />
+            <e p="EnterStudentUnion.cs" t="Include" />
+            <e p="PlayerController_lan.cs" t="Include" />
+          </e>
+          <e p="MainMenu.cs" t="Include" />
+          <e p="old" t="Include">
+            <e p="Dialogue.cs" t="Include" />
+            <e p="DialogueTrigger.cs" t="Include" />
+          </e>
+          <e p="PlayerController.cs" t="Include" />
           <e p="PlayerProjectile.cs" t="Include" />
         </e>
       </e>
@@ -26,4 +37,3 @@
     <e p="$USER_HOME$/Library/Caches/Rider2019.2/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_Moltgey.-1787124985.00" t="ExcludeRecursive" />
   </component>
 </project>
-
