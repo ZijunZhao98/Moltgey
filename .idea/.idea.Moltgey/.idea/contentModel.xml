@@ -19,6 +19,8 @@
             <e p="EnterStudentUnion.cs" t="Include" />
             <e p="PlayerController_lan.cs" t="Include" />
           </e>
+          <e p="LastBossController.cs" t="Include" />
+          <e p="mainController.cs" t="Include" />
           <e p="MainMenu.cs" t="Include" />
           <e p="old" t="Include">
             <e p="Dialogue.cs" t="Include" />
@@ -26,6 +28,7 @@
           </e>
           <e p="PlayerController.cs" t="Include" />
           <e p="PlayerProjectile.cs" t="Include" />
+          <e p="SpawnController.cs" t="Include" />
         </e>
       </e>
       <e p="Moltgey.sln" t="IncludeFlat" />
@@ -34,6 +37,6 @@
       <e p="Temp/bin" t="ExcludeRecursive" />
     </e>
     <e p="$USER_HOME$/Library/Caches/Rider2019.2/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/Library/Caches/Rider2019.2/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_Moltgey.-1787124985.00" t="ExcludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.2/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_Moltgey.-1977544815.00" t="ExcludeRecursive" />
   </component>
 </project>

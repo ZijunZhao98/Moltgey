@@ -33,10 +33,11 @@ public class EnemyController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        character = GameObject.FindWithTag("Player").transform;
 
-        if(character != null)
+        if(GameObject.FindWithTag("Player").transform != null)
         {
+            character = GameObject.FindWithTag("Player").transform;
+
             dis = Vector2.Distance(transform.position, character.position);
             if (dis > slowingDistance)
             {
