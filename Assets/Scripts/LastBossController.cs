@@ -10,25 +10,18 @@ public class LastBossController : MonoBehaviour
 
     // Outlets
     public Transform[] spawnPoints;
-    
-    //Scene scene;
     public Transform character;
     public GameObject projectilePrefab;
     Rigidbody2D rigidbody;
 
     // State Tracking
     public float timeElapesed;
-    public float maxSpeed;
-    public float followDistance;
-    public float stopDistance;
-    public float slowingDistance;
-    float dis;
-    float speed;
 
     public float health = 50f;
     private int sn = 4;
     private float time = 0.0f;
     private float interval = 3.0f;
+    Vector2 moveDirection;
 
     //void Awake()
     //{
@@ -50,6 +43,7 @@ public class LastBossController : MonoBehaviour
         if(character != null)
         {
             //dis = Vector2.Distance(transform.position, character.position);
+            float movementSpeed = rigidbody.velocity.magnitude;
 
             time += Time.deltaTime;
 
@@ -63,21 +57,36 @@ public class LastBossController : MonoBehaviour
 
             
 
-            if (transform.position.x == 10 && transform.position.y == 0)
+            if (transform.position.x == spawnPoints[0].position.x && transform.position.y == spawnPoints[0].position.y)
             {
                 //log
                 Debug.Log("sjakhdslkjh");
-                transform.position = Vector2.MoveTowards(transform.position, spawnPoints[2].position, speed * Time.deltaTime);
-                //Wait(10);
-            } else if (transform.position.x == 0 && transform.position.y == 6)
+                //transform.position = Vector2.MoveTowards(transform.position, spawnPoints[2].position, speed * Time.deltaTime);
+                //transform.position = spawnPoints[2].position;
+                //transform.position = Vector2.MoveTowards(transform.position, spawnPoints[2].position, 5f);
+                moveDirection = (spawnPoints[2].position - transform.position).normalized * 3f;
+                rigidbody.velocity = new Vector2(moveDirection.x, moveDirection.y);
+
+
+            } else if (transform.position.x == spawnPoints[2].position.x && transform.position.y == spawnPoints[2].position.y)
             {
-                transform.position = Vector2.MoveTowards(transform.position, spawnPoints[3].position, speed * Time.deltaTime);
-            }else if (transform.position.x == -10 && transform.position.y == 0)
+                //transform.position = Vector2.MoveTowards(transform.position, spawnPoints[3].position, speed * Time.deltaTime);
+                //transform.position = Vector2.MoveTowards(transform.position, spawnPoints[3].position, 2f);
+                moveDirection = (spawnPoints[3].position - transform.position).normalized * 3f;
+                rigidbody.velocity = new Vector2(moveDirection.x, moveDirection.y);
+
+            }
+            else if (transform.position.x == spawnPoints[3].position.x && transform.position.y == spawnPoints[3].position.y)
             {
-                transform.position = Vector2.MoveTowards(transform.position, spawnPoints[1].position, speed * Time.deltaTime);
-            }else if (transform.position.x == 0 && transform.position.y == -6)
+                //transform.position = Vector2.MoveTowards(transform.position, spawnPoints[1].position, speed * Time.deltaTime);
+                moveDirection = (spawnPoints[1].position - transform.position).normalized * 3f;
+                rigidbody.velocity = new Vector2(moveDirection.x, moveDirection.y);
+
+            } else if (transform.position.x == spawnPoints[1].position.x && transform.position.y == spawnPoints[1].position.y)
             {
-                transform.position = Vector2.MoveTowards(transform.position, spawnPoints[0].position, speed * Time.deltaTime);
+                //transform.position = Vector2.MoveTowards(transform.position, spawnPoints[0].position, speed * Time.deltaTime);
+                moveDirection = (spawnPoints[0].position - transform.position).normalized * 3f;
+                rigidbody.velocity = new Vector2(moveDirection.x, moveDirection.y);
             }
 
         }
