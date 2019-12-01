@@ -8,6 +8,10 @@ public class DialogueManager : MonoBehaviour
     public Text nameText;
     public Text dialogueText;
     public Animator animator;
+    public GameObject choice;
+
+    //vars
+    public bool hasChoice = false;
     
     private Queue<string> sentences;
     // Start is called before the first frame update
@@ -33,6 +37,10 @@ public class DialogueManager : MonoBehaviour
     {
         if (sentences.Count == 0)
         {
+            if(hasChoice == true)
+            {
+                choice.SetActive(true);
+            }
             EndDialogue();
             return;
         }
