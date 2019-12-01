@@ -28,10 +28,21 @@ public class PlayerController : MonoBehaviour
     public float moveSpeed;
     public bool Shootprojectile = true;
     public Direction facingDirection;
+    public GameObject rootCanvas;
 
     private void Awake()
     {
         GameObject[] players = GameObject.FindGameObjectsWithTag("Player");
+        GameObject[] canvases = GameObject.FindGameObjectsWithTag("UI");
+
+        if(canvases.Length > 1)
+        {
+            Destroy(rootCanvas);
+        }
+        else
+        {
+            DontDestroyOnLoad(rootCanvas);
+        }
 
         if (players.Length > 1)
         {

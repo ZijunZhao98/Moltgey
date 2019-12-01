@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/Scenes/new/First_Floor.unity
     guid: 94a794c84b18b4b0387fe9e6d95dc497
   - enabled: 1
-    path: Assets/Scenes/First_floor.unity
+    path: Assets/Scenes/spawnboss.unity
     guid: e966c805f972ad04eade46babd49813c
   - enabled: 1
     path: Assets/Scenes/Advisor.unity
