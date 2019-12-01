@@ -9,6 +9,7 @@ public class EnemyController : MonoBehaviour
 {
     Scene scene;
     public Transform character;
+    GameObject characterObj;
     float speed;
 
     public float maxSpeed;
@@ -27,7 +28,7 @@ public class EnemyController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //scene = SceneManager.GetActiveScene();
+        characterObj = GameObject.FindWithTag("Player");
     }
 
     // Update is called once per frame
@@ -75,7 +76,9 @@ public class EnemyController : MonoBehaviour
 
     void Die()
     {
-        Destroy(gameObject);
+        characterObj.GetComponent<PlayerController>().AddBB();
+        Destroy(gameObject); 
+
         //TODO: add bear bucks to player
     }
     

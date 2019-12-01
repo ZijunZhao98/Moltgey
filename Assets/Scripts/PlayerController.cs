@@ -18,17 +18,23 @@ public class PlayerController : MonoBehaviour
 
     public GameObject projectilePrefab;
 
+    //component
     public Animator _animator;
     Rigidbody2D _rigidbody;
     SpriteRenderer _spriteRenderer;
-    public Image imageHealthBar;
+    public GameObject rootCanvas;
 
+    //UI
+    public Image imageHealthBar;
+    public Text bb;
+
+    
     public float healthMax = 100f;
     public float health = 100f;
     public float moveSpeed;
     public bool Shootprojectile = true;
     public Direction facingDirection;
-    public GameObject rootCanvas;
+    public int bearbucks = 0;
 
     private void Awake()
     {
@@ -76,6 +82,8 @@ public class PlayerController : MonoBehaviour
             int facingDirectionIndex = (int)facingDirection;
             Shoot(facingDirectionIndex);
         }
+
+        UpdateBB();
     }
 
     void FixedUpdate()
@@ -148,6 +156,16 @@ public class PlayerController : MonoBehaviour
         }
 
         imageHealthBar.fillAmount = health / healthMax;
+    }
+
+    public void AddBB()
+    {
+        bearbucks += 10;
+    }
+
+    public void UpdateBB()
+    {
+        bb.text = bearbucks.ToString();
     }
 
     void Die()
