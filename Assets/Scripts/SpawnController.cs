@@ -7,9 +7,6 @@ using Random = UnityEngine.Random;
 
 public class SpawnController : MonoBehaviour
 {
-
-    public static SpawnController instance;
-
     public Transform[] spawnPoints;
 
     public GameObject enemyPrefabs;
@@ -18,28 +15,34 @@ public class SpawnController : MonoBehaviour
     // Start is called before the first frame update
 
     public float timeElapsed = 0.0f;
-    public float interval = 3.0f;
-    private void Awake()
-    {
-        instance = this;
-    }
+
+    // configuration
+    public float spawnDelay = 5.0f;
+    public int enemyCounter = 10;
 
     void Start()
     {
-        
+        StartCoroutine("enemySpawnTimer");
     }
 
     // Update is called once per frame
     void Update()
     {
         timeElapsed += Time.deltaTime;
+        
+    }
 
-        if (timeElapsed >= interval && spawnLimit<=20)
+    IEnumerator enemySpawnTimer()
+    {
+        yield return new WaitForSeconds(spawnDelay);
+        //spawn
+        spawnEnemy();
+        enemyCounter--;
+        //repeat
+        if(enemyCounter > 0)
         {
-            spawnEnemy();
-            timeElapsed = 0.0f;
+            StartCoroutine("enemySpawnTimer");
         }
-
         
     }
 
