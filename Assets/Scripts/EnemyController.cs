@@ -11,6 +11,8 @@ public class EnemyController : MonoBehaviour
     public Transform character;
     GameObject characterObj;
     float speed;
+    //public Animator animator;
+    SpriteRenderer _spriteRenderer;
 
     public float maxSpeed;
     public float followDistance;
@@ -29,13 +31,22 @@ public class EnemyController : MonoBehaviour
     void Start()
     {
         characterObj = GameObject.FindWithTag("Player");
+        //animator = GetComponent<Animator>();
+        _spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        //animator.SetFloat("speed", maxSpeed);
+        //if (maxSpeed > 0.05f)
+        //{
+        //    animator.SetFloat("movementX", character.position.x - transform.position.x);
+        //    animator.SetFloat("movementY", character.position.y - transform.position.y);
+        //}
 
-        if(GameObject.FindWithTag("Player").transform != null)
+
+        if (GameObject.FindWithTag("Player").transform != null)
         {
             character = GameObject.FindWithTag("Player").transform;
 
@@ -64,6 +75,12 @@ public class EnemyController : MonoBehaviour
         }
 
     }
+
+    public void changeSprite()
+    {
+        _spriteRenderer.sprite = Resources.Load("aa_0", typeof(Sprite)) as Sprite;
+    }
+
 
     private void OnTriggerEnter2D(Collider2D collision)
     {

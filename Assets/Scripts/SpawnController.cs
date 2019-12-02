@@ -9,9 +9,10 @@ using Random = UnityEngine.Random;
 public class SpawnController : MonoBehaviour
 {
     public Transform[] spawnPoints;
+    public GameObject[] enemyPrefabs;
     public GameObject win;
 
-    public GameObject enemyPrefabs;
+    //public GameObject enemyPrefabs;
     // Start is called before the first frame update
 
     public float timeElapsed = 0.0f;
@@ -22,6 +23,8 @@ public class SpawnController : MonoBehaviour
     public int spawnCounter;
     public int killCounter;
     public bool isPaused = true;
+
+
 
     private void Start()
     {
@@ -62,8 +65,9 @@ public class SpawnController : MonoBehaviour
     {
 
         Transform randomSpawnPoint = spawnPoints[Random.Range(0, spawnPoints.Length)];
+        GameObject enemy = enemyPrefabs[Random.Range(0, spawnPoints.Length)];
 
-        Instantiate(enemyPrefabs, randomSpawnPoint.position, Quaternion.identity);
+        Instantiate(enemy, randomSpawnPoint.position, Quaternion.identity);
     }
 
     public void killIncrement()
