@@ -158,9 +158,9 @@ public class PlayerController : MonoBehaviour
         imageHealthBar.fillAmount = health / healthMax;
     }
 
-    public void AddBB()
+    public void AddBB(int bb)
     {
-        bearbucks += 10;
+        bearbucks += bb;
     }
 
     public void UpdateBB()
