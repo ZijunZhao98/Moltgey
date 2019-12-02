@@ -12,9 +12,10 @@ public class LastBossController : MonoBehaviour
     public GameObject projectilePrefab;
     
 
-    // Configuration
+    // Conponent
     Rigidbody2D rigidbody;
-    GameObject characterObj;
+	public Animator animator;
+	GameObject characterObj;
     public GameObject win;
 
     // State Tracking
@@ -22,16 +23,18 @@ public class LastBossController : MonoBehaviour
     public float firingDelay;
     public float health = 200f;
     private Transform target;
-    private float speed = 0.05f;
+    private float speed;
 
 
     void Start()
     {
         rigidbody = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
         characterObj = GameObject.FindWithTag("Player");
 
         target = spawnPoints[0];
         firingDelay = 2f;
+        speed = 0.08f;
 
         StartCoroutine("FiringTimer");
     }
@@ -39,8 +42,19 @@ public class LastBossController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // time
         timeElapesed += Time.deltaTime;
 
+        // Animator
+        //float movementSpeed = speed;
+        animator.SetFloat("speed", speed);
+        if (speed > 0.05f)
+        {
+            animator.SetFloat("movementX", target.position.x - transform.position.x);
+            animator.SetFloat("movementY", target.position.y - transform.position.y);
+        }
+
+        // Change Boss Attack Pattern
         if (health <= 10f)
         {
             speed = 0.1f;
@@ -53,8 +67,11 @@ public class LastBossController : MonoBehaviour
         {
             target = spawnPoints[Random.Range(0, spawnPoints.Length)];
         }
+
+        
     }
 
+    // 
     IEnumerator FiringTimer()
     {
         yield return new WaitForSeconds(firingDelay);
