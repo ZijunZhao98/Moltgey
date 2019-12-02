@@ -217,6 +217,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: stop_motion_collider (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2064840675706652257, guid: 68fa11cf34e56654fbcb79886a775c71,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2064840675706652259, guid: 68fa11cf34e56654fbcb79886a775c71,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3476,6 +3481,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: stop_motion_collider (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 2064840675706652257, guid: 68fa11cf34e56654fbcb79886a775c71,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2064840675706652259, guid: 68fa11cf34e56654fbcb79886a775c71,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3779,6 +3789,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: stop_motion_collider (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2064840675706652257, guid: 68fa11cf34e56654fbcb79886a775c71,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2064840675706652259, guid: 68fa11cf34e56654fbcb79886a775c71,
         type: 3}
@@ -8433,6 +8448,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: stop_motion_collider (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2064840675706652257, guid: 68fa11cf34e56654fbcb79886a775c71,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2064840675706652259, guid: 68fa11cf34e56654fbcb79886a775c71,
         type: 3}

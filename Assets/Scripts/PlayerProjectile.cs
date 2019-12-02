@@ -39,4 +39,11 @@ public class PlayerProjectile : MonoBehaviour
         Destroy(explosion, 0.25f);
     }
 
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        Destroy(gameObject);
+        GameObject explosion = Instantiate(explosionPrefab, transform.position, Quaternion.identity);
+        Destroy(explosion, 0.25f);
+    }
+
 }
