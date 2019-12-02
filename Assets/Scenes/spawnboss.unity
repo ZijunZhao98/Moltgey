@@ -154,13 +154,19 @@ MonoBehaviour:
   - {fileID: 300809121}
   - {fileID: 871330039}
   - {fileID: 795238846}
+  enemyPrefabs:
+  - {fileID: 2484586578708368139, guid: 15de2ff75bc2449f3989438fe64b0b15, type: 3}
+  - {fileID: 2484586578708368139, guid: 112d041fa175241ef86c70d747311361, type: 3}
+  - {fileID: 2484586578708368139, guid: 93efdab1bd3584608b85fff3b05a0766, type: 3}
+  - {fileID: 2484586578708368139, guid: dde1ef41b2820451bb2f10d3641f17c7, type: 3}
+  - {fileID: 2484586578708368139, guid: 0d911779001c2465e9f12f249ac87aaa, type: 3}
+  - {fileID: 2484586578708368139, guid: 74aae15c7df434d52b69ea199ec1573a, type: 3}
+  - {fileID: 2484586578708368139, guid: 50b28076339e14044a08639b12644f4d, type: 3}
   win: {fileID: 1795975711}
-  enemyPrefabs: {fileID: 2484586578708368139, guid: 15de2ff75bc2449f3989438fe64b0b15,
-    type: 3}
   timeElapsed: 0
   spawnDelay: 3.5
-  enemyCounter: 3
-  spawnCounter: 3
+  enemyCounter: 10
+  spawnCounter: 10
   killCounter: 0
   isPaused: 1
 --- !u!4 &104616634
@@ -1477,8 +1483,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b33dd41111c14847b938be469451ddb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startMenu: {fileID: 0}
-  congrats: {fileID: 0}
 --- !u!1 &2088549749
 GameObject:
   m_ObjectHideFlags: 0
