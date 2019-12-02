@@ -29,6 +29,11 @@ public class PlayerProjectile : MonoBehaviour
         {
             collision.gameObject.GetComponent<EnemyController>().TakeDamage(15);
         }
+
+        if (collision.gameObject.tag == "Boss")
+        {
+            collision.gameObject.GetComponent<LastBossController>().TakeDamage(15);
+        }
         Destroy(gameObject);
         GameObject explosion = Instantiate(explosionPrefab, transform.position, Quaternion.identity);
         Destroy(explosion, 0.25f);
