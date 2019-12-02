@@ -9,6 +9,8 @@ public class VendingController : MonoBehaviour
     int count = 5;
     public Text cokeNum;
     public GameObject vm;
+    int bb;
+    
 
     public void Awake()
     {
@@ -17,10 +19,14 @@ public class VendingController : MonoBehaviour
 
     public void BuyCoke()
     {
-        if(count > 0)
+        bb = FindObjectOfType<PlayerController>().bearbucks;
+
+        if (count > 0 && bb >= 10)
         {
             count--;
             cokeNum.text = count.ToString();
+            FindObjectOfType<PlayerController>().cokeCount++;
+            FindObjectOfType<PlayerController>().bearbucks -= 10;
         }
     }
 

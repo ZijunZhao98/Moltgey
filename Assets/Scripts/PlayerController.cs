@@ -23,6 +23,7 @@ public class PlayerController : MonoBehaviour
     Rigidbody2D _rigidbody;
     SpriteRenderer _spriteRenderer;
     public GameObject rootCanvas;
+    public GameObject[] inventories;
 
     //UI
     public Image imageHealthBar;
@@ -35,6 +36,8 @@ public class PlayerController : MonoBehaviour
     public bool Shootprojectile = true;
     public Direction facingDirection;
     public int bearbucks = 0;
+    public int cokeCount = 0;
+    
 
     private void Awake()
     {
@@ -82,6 +85,18 @@ public class PlayerController : MonoBehaviour
             int facingDirectionIndex = (int)facingDirection;
             Shoot(facingDirectionIndex);
         }
+
+        if (Input.GetKeyDown(KeyCode.X))
+        {
+            AddHealth();
+        }
+        if(SceneManager.GetActiveScene().name == "First_floor")
+        {
+            health = 100;
+        }
+        UpdateCokeDisplay();
+
+
 
         UpdateBB();
     }
@@ -163,6 +178,22 @@ public class PlayerController : MonoBehaviour
         bearbucks += bb;
     }
 
+    public void UpdateCokeDisplay()
+    {
+        for(int i = 0; i < 5; i++)
+        {
+            if(i < cokeCount)
+            {
+                inventories[i].SetActive(true);
+            }
+            else
+            {
+                inventories[i].SetActive(false);
+            }
+            
+        }
+    }
+
     public void UpdateBB()
     {
         bb.text = bearbucks.ToString();
@@ -172,6 +203,13 @@ public class PlayerController : MonoBehaviour
     {
         Destroy(gameObject);
         SceneManager.LoadScene("GameEND");
+    }
+
+    void AddHealth()
+    {
+        health += 10;
+        cokeCount--;
+        imageHealthBar.fillAmount = health / healthMax;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
