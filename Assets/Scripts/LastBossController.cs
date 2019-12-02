@@ -7,37 +7,28 @@ using UnityEngine.SceneManagement;
 
 public class LastBossController : MonoBehaviour
 {
-
     // Outlets
     public Transform[] spawnPoints;
-
-    //Scene scene;
-    public Transform character;
     public GameObject projectilePrefab;
+
+    // Configuration
     Rigidbody2D rigidbody;
 
     // State Tracking
     public float timeElapesed;
-    public float maxSpeed;
-    public float followDistance;
-    public float stopDistance;
-    public float slowingDistance;
-    float dis;
-    float speed = 4;
-
-    public float health = 50f;
-    private int sn = 4;
-    private float time = 0.0f;
-    private float interval = 3.0f;
-
-    private int currentP = 0;
+    public float firngDelay = 2f;
+    public float health = 300f;
     private Transform target;
+    private float speed = 0.05f;
 
 
     void Start()
     {
         rigidbody = GetComponent<Rigidbody2D>();
+
         target = spawnPoints[0];
+
+        StartCoroutine("FiringTimer");
     }
 
     // Update is called once per frame
@@ -45,31 +36,30 @@ public class LastBossController : MonoBehaviour
     {
         timeElapesed += Time.deltaTime;
 
-        time += Time.deltaTime;
-
-        if (time >= interval)
+        if (health <= 150f)
         {
-            GameObject newProjectile = Instantiate(projectilePrefab, transform.position, Quaternion.identity);
-
-            time = 0.0f;
+            speed = 0.1f;
         }
 
-
-
-        transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
-
-        if ((transform.position - target.position).magnitude < 0.3)
+        // Moving towards random points
+        transform.position = Vector2.MoveTowards(transform.position, target.position, speed);
+        if ((transform.position - target.position).magnitude < 0.1)
         {
-            currentP++;
-            if (currentP == spawnPoints.Length)
-            {
-                currentP = 0;
-            }
-
-            target = spawnPoints[currentP];
+            target = spawnPoints[Random.Range(0, spawnPoints.Length)];
         }
+    }
 
+    IEnumerator FiringTimer()
+    {
+        yield return new WaitForSeconds(firngDelay);
+        fireProjectile();
+        StartCoroutine("FiringTimer");
 
+    }
+
+    void fireProjectile()
+    {
+        Instantiate(projectilePrefab, transform.position, Quaternion.identity);
     }
 
     public void TakeDamage(float damageAmount)

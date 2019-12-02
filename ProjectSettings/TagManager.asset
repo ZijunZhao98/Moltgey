@@ -8,6 +8,7 @@ TagManager:
   - EnemyProjectile
   - UI
   - Dialogue
+  - Boss
   layers:
   - Default
   - TransparentFX
