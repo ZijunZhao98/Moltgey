@@ -14,6 +14,7 @@ public class SBMenuController : MonoBehaviour
     {
         Hide();
         SceneManager.LoadScene("First_floor");
+        FindObjectOfType<PlayerController>().setPause();
     }
 
     public void Hide()

@@ -42,8 +42,9 @@ public class PlayerController : MonoBehaviour
     public int totalCokeUsed = 0;
     public bool FinishSpawn = false;
     public bool FinishLast = false;
+    public bool isPaused = false;
     
-
+    
     private void Awake()
     {
         GameObject[] players = GameObject.FindGameObjectsWithTag("Player");
@@ -77,6 +78,19 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
+
+        if (isPaused)
+        {
+            if (SceneManager.GetActiveScene().name == "First_floor")
+            {
+                isPaused = false;
+            }
+            else
+            {
+                return;
+            }
+        }
+
         float movementSpeed = _rigidbody.velocity.magnitude;
         _animator.SetFloat("speed", movementSpeed);
         if (movementSpeed > 0.1f)
@@ -91,7 +105,7 @@ public class PlayerController : MonoBehaviour
             Shoot(facingDirectionIndex);
         }
 
-        if (Input.GetKeyDown(KeyCode.X) && cokeCount >= 0)
+        if (Input.GetKeyDown(KeyCode.X) && cokeCount >= 0 && health < 100)
         {
             AddHealth();
         }
@@ -105,6 +119,7 @@ public class PlayerController : MonoBehaviour
         if(FinishLast && FinishSpawn)
         {
             SceneManager.LoadScene("CalculateGPA");
+            isPaused = true;
         }
 
 
@@ -114,6 +129,12 @@ public class PlayerController : MonoBehaviour
 
     void FixedUpdate()
     {
+        if (isPaused)
+        {
+            return;
+        }
+
+
         if (Input.GetKey(KeyCode.UpArrow))
         {
             _rigidbody.AddForce(Vector2.up * moveSpeed, ForceMode2D.Impulse);
@@ -150,6 +171,11 @@ public class PlayerController : MonoBehaviour
         {
             facingDirection = Direction.Right;
         }
+    }
+
+    public void setPause()
+    {
+        isPaused = true;
     }
 
     void Shoot(int d)
@@ -211,10 +237,15 @@ public class PlayerController : MonoBehaviour
         bb.text = bearbucks.ToString();
     }
 
-    void Die()
+    public void Die()
     {
         Destroy(gameObject);
         SceneManager.LoadScene("GameEND");
+    }
+
+    public void justDestroy()
+    {
+        Destroy(this.gameObject);
     }
 
     void AddHealth()

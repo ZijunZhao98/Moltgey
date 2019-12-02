@@ -4405,6 +4405,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 4857561877702941280, guid: 6186d9a06406cb74ababd3eb9d9a1944,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 2749722662aa72244892b4d52b753a71,
+        type: 3}
+    - target: {fileID: 4857561878730882658, guid: 6186d9a06406cb74ababd3eb9d9a1944,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 2749722662aa72244892b4d52b753a71,
+        type: 3}
     - target: {fileID: 4857561877992621830, guid: 6186d9a06406cb74ababd3eb9d9a1944,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4510,6 +4522,16 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4857561879007323845, guid: 6186d9a06406cb74ababd3eb9d9a1944,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1875308328}
+    - target: {fileID: 4857561879007323845, guid: 6186d9a06406cb74ababd3eb9d9a1944,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: DisplayNextSentence
+      objectReference: {fileID: 0}
     - target: {fileID: 4857561878499347300, guid: 6186d9a06406cb74ababd3eb9d9a1944,
         type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -4529,6 +4551,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.x
       value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 4857561878499347303, guid: 6186d9a06406cb74ababd3eb9d9a1944,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4857561878499347323, guid: 6186d9a06406cb74ababd3eb9d9a1944,
         type: 3}
@@ -4575,18 +4602,6 @@ PrefabInstance:
       propertyPath: dialogue.sentences.Array.data[1]
       value: 'Please choose which course you want to take:'
       objectReference: {fileID: 0}
-    - target: {fileID: 4857561878730882658, guid: 6186d9a06406cb74ababd3eb9d9a1944,
-        type: 3}
-      propertyPath: m_FontData.m_Font
-      value: 
-      objectReference: {fileID: 12800000, guid: 2749722662aa72244892b4d52b753a71,
-        type: 3}
-    - target: {fileID: 4857561877702941280, guid: 6186d9a06406cb74ababd3eb9d9a1944,
-        type: 3}
-      propertyPath: m_FontData.m_Font
-      value: 
-      objectReference: {fileID: 12800000, guid: 2749722662aa72244892b4d52b753a71,
-        type: 3}
     - target: {fileID: 4857561879007323866, guid: 6186d9a06406cb74ababd3eb9d9a1944,
         type: 3}
       propertyPath: m_Color.r
@@ -4606,16 +4621,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Color.a
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4857561879007323845, guid: 6186d9a06406cb74ababd3eb9d9a1944,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1875308328}
-    - target: {fileID: 4857561879007323845, guid: 6186d9a06406cb74ababd3eb9d9a1944,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: DisplayNextSentence
       objectReference: {fileID: 0}
     - target: {fileID: 4857561877827755767, guid: 6186d9a06406cb74ababd3eb9d9a1944,
         type: 3}
@@ -4923,6 +4928,8 @@ GameObject:
   - component: {fileID: 1869740812}
   - component: {fileID: 1869740813}
   - component: {fileID: 1869740814}
+  - component: {fileID: 1869740815}
+  - component: {fileID: 1869740816}
   m_Layer: 0
   m_Name: Advisor
   m_TagString: Untagged
@@ -5010,6 +5017,50 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 2.3125, y: 2.875}
   m_Direction: 0
+--- !u!114 &1869740815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1869740811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b802672f74a04ff08dcad283a86d556, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: Advisor
+    sentences:
+    - 'Hello, welcome to the Advisor''s office. '
+    - 'Please choose which course you want to take:'
+  playerInRange: 0
+--- !u!61 &1869740816
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1869740811}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.08459091, y: -0.42296505}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.3125, y: 2.875}
+    newSize: {x: 2.3125, y: 2.875}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4.1735477, y: 3.72093}
+  m_EdgeRadius: 0
 --- !u!1001 &1875308327
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5021,6 +5072,31 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DialogueManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 1426031168783655148, guid: fd8cf99d0a9ee2d42ba61c887c69f55c,
+        type: 3}
+      propertyPath: nameText
+      value: 
+      objectReference: {fileID: 1779065316}
+    - target: {fileID: 1426031168783655148, guid: fd8cf99d0a9ee2d42ba61c887c69f55c,
+        type: 3}
+      propertyPath: dialogueText
+      value: 
+      objectReference: {fileID: 1779065315}
+    - target: {fileID: 1426031168783655148, guid: fd8cf99d0a9ee2d42ba61c887c69f55c,
+        type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 1779065314}
+    - target: {fileID: 1426031168783655148, guid: fd8cf99d0a9ee2d42ba61c887c69f55c,
+        type: 3}
+      propertyPath: choice
+      value: 
+      objectReference: {fileID: 893785323}
+    - target: {fileID: 1426031168783655148, guid: fd8cf99d0a9ee2d42ba61c887c69f55c,
+        type: 3}
+      propertyPath: hasChoice
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1426031168783655149, guid: fd8cf99d0a9ee2d42ba61c887c69f55c,
         type: 3}
@@ -5076,31 +5152,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1426031168783655148, guid: fd8cf99d0a9ee2d42ba61c887c69f55c,
-        type: 3}
-      propertyPath: nameText
-      value: 
-      objectReference: {fileID: 1779065316}
-    - target: {fileID: 1426031168783655148, guid: fd8cf99d0a9ee2d42ba61c887c69f55c,
-        type: 3}
-      propertyPath: dialogueText
-      value: 
-      objectReference: {fileID: 1779065315}
-    - target: {fileID: 1426031168783655148, guid: fd8cf99d0a9ee2d42ba61c887c69f55c,
-        type: 3}
-      propertyPath: animator
-      value: 
-      objectReference: {fileID: 1779065314}
-    - target: {fileID: 1426031168783655148, guid: fd8cf99d0a9ee2d42ba61c887c69f55c,
-        type: 3}
-      propertyPath: choice
-      value: 
-      objectReference: {fileID: 893785323}
-    - target: {fileID: 1426031168783655148, guid: fd8cf99d0a9ee2d42ba61c887c69f55c,
-        type: 3}
-      propertyPath: hasChoice
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd8cf99d0a9ee2d42ba61c887c69f55c, type: 3}

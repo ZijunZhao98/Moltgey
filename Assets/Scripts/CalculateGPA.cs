@@ -25,6 +25,8 @@ public class CalculateGPA : MonoBehaviour
     }
     public void PlayGame()
     {
-        SceneManager.LoadScene("First_floor");
+
+        SceneManager.LoadScene("GameSTART");
+        FindObjectOfType<PlayerController>().justDestroy();
     }
 }

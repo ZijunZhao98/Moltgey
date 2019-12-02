@@ -41,6 +41,7 @@ public class SpawnController : MonoBehaviour
 
         if (killCounter >= enemyCounter)
         {
+            FindObjectOfType<PlayerController>().isPaused = true;
             Win();
         }
         
