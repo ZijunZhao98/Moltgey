@@ -13,6 +13,14 @@ public class SBMenuController : MonoBehaviour
     public void GoBack()
     {
         Hide();
+        if(SceneManager.GetActiveScene().name == "spawnboss")
+        {
+            FindObjectOfType<PlayerController>().FinishSpawn = true;
+
+        }else if(SceneManager.GetActiveScene().name == "LastBoss")
+        {
+            FindObjectOfType<PlayerController>().FinishLast = true;
+        }
         SceneManager.LoadScene("First_floor");
         FindObjectOfType<PlayerController>().setPause();
     }
