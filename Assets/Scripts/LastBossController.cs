@@ -113,6 +113,8 @@ public class LastBossController : MonoBehaviour
 
     void Win()
     {
+        FindObjectOfType<PlayerController>().isPaused = true;
         win.SetActive(true);
+
     }
 }

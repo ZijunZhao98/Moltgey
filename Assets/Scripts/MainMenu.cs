@@ -23,6 +23,7 @@ public class MainMenu : MonoBehaviour
     public void ReturnToMainMenu()
     {
         SceneManager.LoadScene("GameSTART");
+        //FindObjectOfType<PlayerController>().justDestroy();
     }
 
 }

@@ -239,13 +239,14 @@ public class PlayerController : MonoBehaviour
 
     public void Die()
     {
-        Destroy(gameObject);
+        justDestroy();
         SceneManager.LoadScene("GameEND");
     }
 
     public void justDestroy()
     {
         Destroy(this.gameObject);
+        Destroy(rootCanvas);
     }
 
     void AddHealth()

@@ -46,7 +46,7 @@ public class EnemyController : MonoBehaviour
         //}
 
 
-        if (GameObject.FindWithTag("Player").transform != null)
+        if (GameObject.FindWithTag("Player") != null)
         {
             character = GameObject.FindWithTag("Player").transform;
 
