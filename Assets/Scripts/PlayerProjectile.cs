@@ -23,9 +23,9 @@ public class PlayerProjectile : MonoBehaviour
         Destroy(gameObject, 5f);
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.gameObject.tag == "Enemy")
+        if (collision.gameObject.tag == "Enemy")
         {
             collision.gameObject.GetComponent<EnemyController>().TakeDamage(15);
         }
@@ -37,7 +37,6 @@ public class PlayerProjectile : MonoBehaviour
         Destroy(gameObject);
         GameObject explosion = Instantiate(explosionPrefab, transform.position, Quaternion.identity);
         Destroy(explosion, 0.25f);
-        
     }
 
 }

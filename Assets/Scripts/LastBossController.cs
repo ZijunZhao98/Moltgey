@@ -10,14 +10,17 @@ public class LastBossController : MonoBehaviour
     // Outlets
     public Transform[] spawnPoints;
     public GameObject projectilePrefab;
+    
 
     // Configuration
     Rigidbody2D rigidbody;
+    GameObject characterObj;
+    public GameObject win;
 
     // State Tracking
     public float timeElapesed;
-    public float firngDelay = 2f;
-    public float health = 300f;
+    public float firingDelay;
+    public float health = 200f;
     private Transform target;
     private float speed = 0.05f;
 
@@ -25,8 +28,10 @@ public class LastBossController : MonoBehaviour
     void Start()
     {
         rigidbody = GetComponent<Rigidbody2D>();
+        characterObj = GameObject.FindWithTag("Player");
 
         target = spawnPoints[0];
+        firingDelay = 2f;
 
         StartCoroutine("FiringTimer");
     }
@@ -36,9 +41,10 @@ public class LastBossController : MonoBehaviour
     {
         timeElapesed += Time.deltaTime;
 
-        if (health <= 150f)
+        if (health <= 10f)
         {
             speed = 0.1f;
+            firingDelay = 1f;
         }
 
         // Moving towards random points
@@ -51,7 +57,7 @@ public class LastBossController : MonoBehaviour
 
     IEnumerator FiringTimer()
     {
-        yield return new WaitForSeconds(firngDelay);
+        yield return new WaitForSeconds(firingDelay);
         fireProjectile();
         StartCoroutine("FiringTimer");
 
@@ -62,6 +68,14 @@ public class LastBossController : MonoBehaviour
         Instantiate(projectilePrefab, transform.position, Quaternion.identity);
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Player")
+        {
+            collision.gameObject.GetComponent<PlayerController>().TakeDamage(10);
+        }
+    }
+
     public void TakeDamage(float damageAmount)
     {
         health -= damageAmount;
@@ -69,13 +83,19 @@ public class LastBossController : MonoBehaviour
         {
             Die();
         }
+
     }
 
     void Die()
     {
+        characterObj.GetComponent<PlayerController>().AddBB(100);
         Destroy(gameObject);
+        Win();
         //TODO: add bear bucks to player
     }
 
-
+    void Win()
+    {
+        win.SetActive(true);
+    }
 }

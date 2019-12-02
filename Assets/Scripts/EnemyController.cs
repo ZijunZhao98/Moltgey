@@ -65,6 +65,15 @@ public class EnemyController : MonoBehaviour
 
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Player")
+        {
+            collision.gameObject.GetComponent<PlayerController>().TakeDamage(10);
+        }
+    }
+
+
     public void TakeDamage(float damageAmount)
     {
         health -= damageAmount;
@@ -76,7 +85,7 @@ public class EnemyController : MonoBehaviour
 
     void Die()
     {
-        characterObj.GetComponent<PlayerController>().AddBB();
+        characterObj.GetComponent<PlayerController>().AddBB(10);
         Destroy(gameObject);
         FindObjectOfType<SpawnController>().killIncrement();
 
