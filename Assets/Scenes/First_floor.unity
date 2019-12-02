@@ -991,6 +991,11 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 19.234968
       objectReference: {fileID: 0}
+    - target: {fileID: 1243814757894037983, guid: b7e0ce7993ab46e4e9fa747d2cc40fd6,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4823497819823489716, guid: b7e0ce7993ab46e4e9fa747d2cc40fd6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1046,7 +1051,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 483740098, guid: b7e0ce7993ab46e4e9fa747d2cc40fd6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: b7e0ce7993ab46e4e9fa747d2cc40fd6, type: 3}
 --- !u!114 &827101258 stripped
 MonoBehaviour:

@@ -77,7 +77,8 @@ public class EnemyController : MonoBehaviour
     void Die()
     {
         characterObj.GetComponent<PlayerController>().AddBB();
-        Destroy(gameObject); 
+        Destroy(gameObject);
+        FindObjectOfType<SpawnController>().killIncrement();
 
         //TODO: add bear bucks to player
     }

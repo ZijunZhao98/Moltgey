@@ -10,7 +10,7 @@ public class LastBossController : MonoBehaviour
 
     // Outlets
     public Transform[] spawnPoints;
-    
+
     //Scene scene;
     public Transform character;
     public GameObject projectilePrefab;
@@ -32,17 +32,10 @@ public class LastBossController : MonoBehaviour
 
     private int currentP = 0;
     private Transform target;
-    
-    
 
-    //void Awake()
-    //{
-    //    instance = this;
-    //}
-    // Start is called before the first frame update
+
     void Start()
     {
-        //scene = SceneManager.GetActiveScene();
         rigidbody = GetComponent<Rigidbody2D>();
         target = spawnPoints[0];
     }
@@ -51,38 +44,31 @@ public class LastBossController : MonoBehaviour
     void Update()
     {
         timeElapesed += Time.deltaTime;
-        character = GameObject.FindWithTag("Player").transform;
 
-        if(character != null)
+        time += Time.deltaTime;
+
+        if (time >= interval)
         {
-            //dis = Vector2.Distance(transform.position, character.position);
+            GameObject newProjectile = Instantiate(projectilePrefab, transform.position, Quaternion.identity);
 
-            time += Time.deltaTime;
-
-            if (time >= interval)
-            {
-                //GameObject newProjectile = Instantiate(projectilePrefab, transform.position, Quaternion.identity);
-                
-                
-                time = 0.0f;
-            }
-
-            
-
-            transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
-
-            if ((transform.position-target.position).magnitude<0.3)
-            {
-                currentP++;
-                if (currentP == spawnPoints.Length)
-                {
-                    currentP = 0;
-                }
-
-                target = spawnPoints[currentP];
-            }
-
+            time = 0.0f;
         }
+
+
+
+        transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
+
+        if ((transform.position - target.position).magnitude < 0.3)
+        {
+            currentP++;
+            if (currentP == spawnPoints.Length)
+            {
+                currentP = 0;
+            }
+
+            target = spawnPoints[currentP];
+        }
+
 
     }
 
@@ -100,7 +86,6 @@ public class LastBossController : MonoBehaviour
         Destroy(gameObject);
         //TODO: add bear bucks to player
     }
-    
-    
+
+
 }
- 
