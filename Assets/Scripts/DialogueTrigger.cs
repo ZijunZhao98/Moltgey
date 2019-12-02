@@ -6,20 +6,30 @@ public class DialogueTrigger : MonoBehaviour
 {
     public Dialogue dialogue;
     public bool playerInRange;
+    bool startD = false;
 
 	public void TriggerDialogue()
     {
         FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
     }
 
-    
+    public void NextSentence()
+    {
+        FindObjectOfType<DialogueManager>().DisplayNextSentence();
+    }
+
+
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Alpha0))
         {
-            if (playerInRange)
+            if (playerInRange && startD == false)
             {
                 TriggerDialogue();
+                startD = true;
+            }else if(playerInRange && startD == true)
+            {
+                NextSentence();
             }
         }
     }
@@ -37,6 +47,7 @@ public class DialogueTrigger : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             playerInRange = false;
+            startD = false;
         }
     }
 }

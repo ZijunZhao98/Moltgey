@@ -56,6 +56,7 @@ public class VendingController : MonoBehaviour
             {
                 Show();
             }
+ 
         }
     }
 
