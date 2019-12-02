@@ -10,6 +10,10 @@ public class FollowCamera : MonoBehaviour
 
     private void LateUpdate()
     {
-        transform.position = GameObject.FindWithTag("Player").transform.position + offset;
+        GameObject[] players = GameObject.FindGameObjectsWithTag("Player");
+        if(players.Length != 0)
+        {
+            transform.position = GameObject.FindWithTag("Player").transform.position + offset;
+        }
     }
 }

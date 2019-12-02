@@ -8,6 +8,7 @@ public class AdvisorMenuController : MonoBehaviour
     // Start is called before the first frame update
     public GameObject spawnMenu;
     public GameObject choiceMenu;
+    public GameObject lastBossMenu;
 
     private void Awake()
     {
@@ -20,14 +21,19 @@ public class AdvisorMenuController : MonoBehaviour
         spawnMenu.SetActive(true);
     }
 
+    public void chooseLastBoss()
+    {
+        choiceMenu.SetActive(false);
+        lastBossMenu.SetActive(true);
+    }
+
     public void startSpawn()
     {
         SceneManager.LoadScene("spawnboss");
     }
 
-    public void chooseLastBoss()
+    public void startLastBoss()
     {
-        Hide();
         SceneManager.LoadScene("LastBoss");
     }
 
