@@ -114,5 +114,6 @@ public class LastBossController : MonoBehaviour
     void Win()
     {
         win.SetActive(true);
+        FindObjectOfType<PlayerController>().FinishLast = true;
     }
 }

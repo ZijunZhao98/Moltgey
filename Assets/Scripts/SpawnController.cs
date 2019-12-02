@@ -78,5 +78,6 @@ public class SpawnController : MonoBehaviour
     public void Win()
     {
         win.SetActive(true);
+        FindObjectOfType<PlayerController>().FinishSpawn = true;
     }
 }

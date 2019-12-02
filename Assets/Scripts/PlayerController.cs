@@ -37,6 +37,11 @@ public class PlayerController : MonoBehaviour
     public Direction facingDirection;
     public int bearbucks = 0;
     public int cokeCount = 0;
+
+    public float totalDemageReceived = 0;
+    public int totalCokeUsed = 0;
+    public bool FinishSpawn = false;
+    public bool FinishLast = false;
     
 
     private void Awake()
@@ -86,15 +91,21 @@ public class PlayerController : MonoBehaviour
             Shoot(facingDirectionIndex);
         }
 
-        if (Input.GetKeyDown(KeyCode.X))
+        if (Input.GetKeyDown(KeyCode.X) && cokeCount >= 0)
         {
             AddHealth();
         }
         if(SceneManager.GetActiveScene().name == "First_floor")
         {
             health = 100;
+            imageHealthBar.fillAmount = health / healthMax;
         }
         UpdateCokeDisplay();
+
+        if(FinishLast && FinishSpawn)
+        {
+            SceneManager.LoadScene("CalculateGPA");
+        }
 
 
 
@@ -165,6 +176,7 @@ public class PlayerController : MonoBehaviour
     public void TakeDamage(float damageAmount)
     {
         health -= damageAmount;
+        totalDemageReceived += damageAmount;
         if (health <= 0)
         {
             Die();
@@ -208,6 +220,7 @@ public class PlayerController : MonoBehaviour
     void AddHealth()
     {
         health += 10;
+        totalCokeUsed ++;
         cokeCount--;
         imageHealthBar.fillAmount = health / healthMax;
     }
