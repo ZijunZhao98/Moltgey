@@ -7,7 +7,7 @@ public class DialogueTrigger : MonoBehaviour
     public Dialogue dialogue;
     public bool playerInRange;
 
-    public void TriggerDialogue()
+	public void TriggerDialogue()
     {
         FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
     }
@@ -15,7 +15,7 @@ public class DialogueTrigger : MonoBehaviour
     
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Plus))
+        if (Input.GetKeyDown(KeyCode.Alpha0))
         {
             if (playerInRange)
             {

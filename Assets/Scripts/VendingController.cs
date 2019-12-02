@@ -10,11 +10,13 @@ public class VendingController : MonoBehaviour
     public Text cokeNum;
     public GameObject vm;
     int bb;
-    
+    public bool inRange;
+
 
     public void Awake()
     {
         vm.SetActive(false);
+        //inRange = false;
     }
 
     public void BuyCoke()
@@ -27,6 +29,33 @@ public class VendingController : MonoBehaviour
             cokeNum.text = count.ToString();
             FindObjectOfType<PlayerController>().cokeCount++;
             FindObjectOfType<PlayerController>().bearbucks -= 10;
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            inRange = true;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            inRange = false;
+        }
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Alpha0))
+        {
+            if (inRange)
+            {
+                Show();
+            }
         }
     }
 
