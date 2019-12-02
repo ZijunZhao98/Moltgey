@@ -655,6 +655,7 @@ GameObject:
   - component: {fileID: 955080168}
   - component: {fileID: 955080167}
   - component: {fileID: 955080171}
+  - component: {fileID: 955080172}
   m_Layer: 10
   m_Name: LastBoss
   m_TagString: Boss
@@ -786,6 +787,25 @@ MonoBehaviour:
   timeElapesed: 0
   firingDelay: 2
   health: 200
+--- !u!95 &955080172
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 955080166}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f153e9cc01503ed4f8df5b5b4681d5c5, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &986033193
 GameObject:
   m_ObjectHideFlags: 0
