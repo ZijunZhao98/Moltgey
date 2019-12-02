@@ -6,6 +6,9 @@ using UnityEngine.SceneManagement;
 public class AdvisorMenuController : MonoBehaviour
 {
     // Start is called before the first frame update
+    public GameObject spawnMenu;
+    public GameObject choiceMenu;
+
     private void Awake()
     {
         Hide();
@@ -13,7 +16,12 @@ public class AdvisorMenuController : MonoBehaviour
 
     public void chooseSpwanBosses()
     {
-        Hide();
+        choiceMenu.SetActive(false);
+        spawnMenu.SetActive(true);
+    }
+
+    public void startSpawn()
+    {
         SceneManager.LoadScene("spawnboss");
     }
 

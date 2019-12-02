@@ -11,6 +11,7 @@ public class MainMenu : MonoBehaviour
         // load the next scene in the queue
         // Scene index 0: GameStart
         //             1: First_Floor
+        FindObjectOfType<PlayerController>().health = 100;
         SceneManager.LoadScene("First_floor");
     }
 

@@ -9,6 +9,7 @@ using Random = UnityEngine.Random;
 public class SpawnController : MonoBehaviour
 {
     public Transform[] spawnPoints;
+    public GameObject win;
 
     public GameObject enemyPrefabs;
     // Start is called before the first frame update
@@ -20,17 +21,22 @@ public class SpawnController : MonoBehaviour
     public int enemyCounter;
     public int spawnCounter;
     public int killCounter;
+    public bool isPaused = true;
 
-    void Start()
+    private void Start()
     {
-        StartCoroutine("enemySpawnTimer");
+
+         StartCoroutine("enemySpawnTimer");
     }
 
     // Update is called once per frame
     void Update()
     {
+        
         timeElapsed += Time.deltaTime;
-        if(killCounter >= enemyCounter)
+
+
+        if (killCounter >= enemyCounter)
         {
             Win();
         }
@@ -42,10 +48,10 @@ public class SpawnController : MonoBehaviour
         yield return new WaitForSeconds(spawnDelay);
         //spawn
         spawnEnemy();
+
         spawnCounter--;
 
-        //repeat
-        if(spawnCounter > 0)
+        if (spawnCounter > 0)
         {
             StartCoroutine("enemySpawnTimer");
         }
@@ -67,6 +73,6 @@ public class SpawnController : MonoBehaviour
 
     public void Win()
     {
-        SceneManager.LoadScene("First_floor");
+        win.SetActive(true);
     }
 }
