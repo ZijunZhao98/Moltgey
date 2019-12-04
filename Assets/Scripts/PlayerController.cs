@@ -43,6 +43,7 @@ public class PlayerController : MonoBehaviour
     public bool FinishSpawn = false;
     public bool FinishLast = false;
     public bool isPaused = false;
+    public bool firstPlay;
     
     
     private void Awake()
@@ -72,6 +73,10 @@ public class PlayerController : MonoBehaviour
         _rigidbody = GetComponent<Rigidbody2D>();
         _animator = GetComponent<Animator>();
         _spriteRenderer = GetComponent<SpriteRenderer>();
+        isPaused = true;
+        firstPlay = true;
+
+
     }
 
     // Update is called once per frame
@@ -81,15 +86,15 @@ public class PlayerController : MonoBehaviour
 
         if (isPaused)
         {
-            if (SceneManager.GetActiveScene().name == "First_floor")
-            {
-                isPaused = false;
-            }
-            else
-            {
+            //if (FinishSpawn || FinishLast)
+            //{
+            //    isPaused = false;
+            //}
+            //else
+            //{
                 return;
-            }
-        }
+            //}
+    }
 
         float movementSpeed = _rigidbody.velocity.magnitude;
         _animator.SetFloat("speed", movementSpeed);

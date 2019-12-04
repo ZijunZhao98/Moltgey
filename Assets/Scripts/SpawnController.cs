@@ -22,7 +22,8 @@ public class SpawnController : MonoBehaviour
     public int enemyCounter;
     public int spawnCounter;
     public int killCounter;
-    public bool isPaused = true;
+
+    public bool winnnn = false;
 
 
 
@@ -39,10 +40,11 @@ public class SpawnController : MonoBehaviour
         timeElapsed += Time.deltaTime;
 
 
-        if (killCounter >= enemyCounter)
+        if (killCounter >= enemyCounter && winnnn == false)
         {
-            FindObjectOfType<PlayerController>().isPaused = true;
+            
             Win();
+            winnnn = true;
         }
         
     }
@@ -77,7 +79,8 @@ public class SpawnController : MonoBehaviour
     }
 
     public void Win()
-    {
+    { 
         win.SetActive(true);
+        FindObjectOfType<PlayerController>().isPaused = true;
     }
 }

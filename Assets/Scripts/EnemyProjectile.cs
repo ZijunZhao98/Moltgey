@@ -29,6 +29,7 @@ public class EnemyProjectile : MonoBehaviour
         {
             collision.gameObject.GetComponent<PlayerController>().TakeDamage(10);
         }
+        if(collision.gameObject.tag != "EnemyProjectile")
         Destroy(gameObject);
         GameObject explosion = Instantiate(explosionPrefab, transform.position, Quaternion.identity);
         Destroy(explosion, 0.25f);

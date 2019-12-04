@@ -63,6 +63,7 @@ public class DialogueManager : MonoBehaviour
 
     void EndDialogue()
     {
+        FindObjectOfType<PlayerController>().isPaused = false;
         animator.SetBool("isOpen", false);
     }
 }

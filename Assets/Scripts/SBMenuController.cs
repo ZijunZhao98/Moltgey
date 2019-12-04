@@ -12,8 +12,10 @@ public class SBMenuController : MonoBehaviour
 
     public void GoBack()
     {
-        Hide();
-        if(SceneManager.GetActiveScene().name == "spawnboss")
+        FindObjectOfType<PlayerController>().isPaused = false;
+        
+        //Debug.Log(FindObjectOfType<PlayerController>().isPaused);
+        if (SceneManager.GetActiveScene().name == "spawnboss")
         {
             FindObjectOfType<PlayerController>().FinishSpawn = true;
 
@@ -21,12 +23,16 @@ public class SBMenuController : MonoBehaviour
         {
             FindObjectOfType<PlayerController>().FinishLast = true;
         }
+
         SceneManager.LoadScene("First_floor");
-        FindObjectOfType<PlayerController>().setPause();
+        Hide();
+        
+        //FindObjectOfType<PlayerController>().setPause();
     }
 
     public void Hide()
     {
+
         gameObject.SetActive(false);
     }
 }

@@ -10,7 +10,6 @@ public class ShootBossController : MonoBehaviour
     // Outlets
     public Transform[] spawnPoints;
     public GameObject projectilePrefab;
-    public GameObject projectilePrefab1;
 
 
     // Conponent
@@ -63,11 +62,11 @@ public class ShootBossController : MonoBehaviour
         }
 
         // Moving towards random points
-        transform.position = Vector2.MoveTowards(transform.position, target.position, speed);
-        if ((transform.position - target.position).magnitude < 0.1)
-        {
-            target = spawnPoints[Random.Range(0, spawnPoints.Length)];
-        }
+        //transform.position = Vector2.MoveTowards(transform.position, target.position, speed);
+        //if ((transform.position - target.position).magnitude < 0.1)
+        //{
+        //    target = spawnPoints[Random.Range(0, spawnPoints.Length)];
+        //}
 
         
     }
@@ -76,21 +75,26 @@ public class ShootBossController : MonoBehaviour
     IEnumerator FiringTimer()
     {
         yield return new WaitForSeconds(firingDelay);
-        fireProjectile1();
-        fireProjectile2();
+        fireProjectile();
+        //fireProjectile();
         StartCoroutine("FiringTimer");
 
     }
 
-    void fireProjectile1()
+    void fireProjectile()
     {
+        
         Instantiate(projectilePrefab, transform.position, Quaternion.identity);
-        //Instantiate(projectilePrefab[1], new Vector3(0, 4, 0), Quaternion.identity);
+        //FindObjectOfType<EnemyProjectile>().rotateV();
+        Instantiate(projectilePrefab, transform.position, Quaternion.identity);
+        //Vector2 moveDirection;
+        //moveDirection = Vector2.right.Rotate(90f);
+        //projectilePrefab.GetComponent<Rigidbody2D>().velocity = Quaternion.Euler(0, 0, 20) * projectilePrefab.GetComponent<Rigidbody2D>().velocity;
+        //_rigidbody.velocity = new Vector2(moveDirection.x, moveDirection.y);
+
+
     }
-    void fireProjectile2()
-    {
-        Instantiate(projectilePrefab, new Vector3(0, 4, 0), Quaternion.identity);
-    }
+
 
     private void OnTriggerEnter2D(Collider2D collision)
     {

@@ -62,11 +62,13 @@ public class VendingController : MonoBehaviour
 
     public void Show()
     {
+        FindObjectOfType<PlayerController>().isPaused = true;
         vm.SetActive(true);
     }
 
     public void Hide()
     {
+        FindObjectOfType<PlayerController>().isPaused = false;
         vm.SetActive(false);
     }
 }

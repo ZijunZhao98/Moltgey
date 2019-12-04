@@ -164,11 +164,10 @@ MonoBehaviour:
   - {fileID: 2484586578708368139, guid: 50b28076339e14044a08639b12644f4d, type: 3}
   win: {fileID: 1795975711}
   timeElapsed: 0
-  spawnDelay: 3.5
+  spawnDelay: 2
   enemyCounter: 10
   spawnCounter: 10
   killCounter: 0
-  isPaused: 1
 --- !u!4 &104616634
 Transform:
   m_ObjectHideFlags: 0

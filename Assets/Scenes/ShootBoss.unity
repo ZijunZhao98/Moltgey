@@ -654,8 +654,8 @@ GameObject:
   - component: {fileID: 955080169}
   - component: {fileID: 955080168}
   - component: {fileID: 955080167}
-  - component: {fileID: 955080171}
   - component: {fileID: 955080172}
+  - component: {fileID: 955080171}
   m_Layer: 10
   m_Name: ShootBoss
   m_TagString: Boss
@@ -773,7 +773,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 955080166}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2bb588f31cb1b4082a87a883b47bec0e, type: 3}
+  m_Script: {fileID: 11500000, guid: 54a656b56a27b4357914ab4192d84a1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoints:
@@ -783,10 +783,12 @@ MonoBehaviour:
   - {fileID: 1649836533}
   projectilePrefab: {fileID: 2689345010326483070, guid: 20c799f65b05eec47afc5128339b8552,
     type: 3}
+  projectilePrefab1: {fileID: 2689345010326483070, guid: 20c799f65b05eec47afc5128339b8552,
+    type: 3}
   animator: {fileID: 0}
-  win: {fileID: 811511570}
+  win: {fileID: 0}
   timeElapesed: 0
-  firingDelay: 2
+  firingDelay: 0
   health: 200
 --- !u!95 &955080172
 Animator:
