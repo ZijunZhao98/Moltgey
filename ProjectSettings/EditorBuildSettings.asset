@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GameEND.unity
     guid: 3a3996ae71c754316b5bde2f563f67d3
+  - enabled: 1
+    path: Assets/Scenes/ShootBoss.unity
+    guid: 68c93a82ed61a4dd6a4217fcc1cd1bf5
   m_configObjects: {}
