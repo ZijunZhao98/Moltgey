@@ -695,9 +695,11 @@ MonoBehaviour:
     - 'Instructions: Use Arrow keys to move'
     - 'Instructions: Press Space keys to Shoot'
     - "Instructions: Press \"0\"  to Interact\n\t\tUse Mouse to select"
-    - 'And also, after a combat, you could get Bear Bucks as reward! '
-    - 'Be careful, it seems that the damage you get from each combat is related to
-      your GPA. '
+    - Go talk to your advisor to enroll your class.
+    - 'And also, if you pass the class, you would get Bear Bucks as a reward! '
+    - 'Be careful, it seems that the damage you get is affecting your GPA. '
+    - Don't worry, you can always get some coca coola from Vending Machine at the
+      corner to refresh yourself.
     - Good Luck!
   playerInRange: 0
   temp: {fileID: 1412313423}

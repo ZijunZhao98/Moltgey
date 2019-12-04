@@ -83,7 +83,7 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-
+        UpdateCokeDisplay();
         if (isPaused)
         {
             //if (FinishSpawn || FinishLast)
@@ -119,7 +119,7 @@ public class PlayerController : MonoBehaviour
             health = 100;
             imageHealthBar.fillAmount = health / healthMax;
         }
-        UpdateCokeDisplay();
+        
 
         if(FinishLast && FinishSpawn)
         {

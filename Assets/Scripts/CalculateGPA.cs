@@ -21,7 +21,7 @@ public class CalculateGPA : MonoBehaviour
         damage.text = d.ToString();
         c = FindObjectOfType<PlayerController>().totalCokeUsed;
         coke.text =c.ToString();
-        gpa.text = (4.0 - c * 0.2 - d / 200).ToString();
+        gpa.text = (4.0  - d / 100).ToString();
     }
     public void PlayGame()
     {
